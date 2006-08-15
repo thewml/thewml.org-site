@@ -38,8 +38,9 @@ Support for Perl 5.8.0 added in WML 2.0.9
 # &nbsp;&nbsp;&nbsp;sw-wml&nbsp;@&nbsp;engelschall.com
 :##}
 
-<img src="logo.jpg" alt="Website META Language" /> 
-<br />
+# Remming out because it's below the title
+# <img src="logo.jpg" alt="Website META Language" /> 
+
 <div style="margin-left: 140px">
 <i class="title">``WML is the Unix toolkit for getting<br />
 &nbsp;&nbsp;your webdesigner's HTML job done.''</i>
@@ -122,3 +123,4 @@ Mailing List</b></a> <i><b>!</b></i>
 </p>
 
 <ssi_footer>
+
