@@ -103,7 +103,7 @@ else
 <head>
 <title>$(PACKAGE_NAME) ($(PACKAGE_SCUT)), {#PAGE_TITLE#}</title>
 <link rel="stylesheet" href="$(ROOT)/style.css" type="text/css" media="screen, projection" title="Normal" />
-<info style=meta copyright="1996-2001 Engelschall, Germany.">
+<info style="meta" copyright="1996-2001 Engelschall, Germany." />
 {#PAGE_HEAD#}
 </head>
 <body>
@@ -119,12 +119,7 @@ else
 </div>
 
 <div class="main" id="main">
-        <: $sc = "$(area)";
-           if ($sc ne "title") {
-               print '<'."img src=\"$(COM)/navbar/headline-$sc.gif\"";
-               print "     alt=\"{#PAGE_TITLE#}\" /><br />\n";
-            }
-        :>
+        <h1>{#PAGE_TITLE#}</h1>
         <!-- BEGIN OF ACTUAL PAGE CONTENTS -->
         :PAGE_HEAD]
         [PAGE_BODY:
