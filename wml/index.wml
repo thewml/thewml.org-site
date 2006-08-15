@@ -11,7 +11,7 @@
 <b class="sf">%body</b>
 </define-tag>
 
-<page_title name="Title">
+<page_title name="Website Meta Language">
 
 {#PAGE_HEAD#:
 <meta name="keywords" content="\
