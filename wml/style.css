@@ -1,3 +1,19 @@
+/* Styles for the DIVs */
+.navbar
+{
+    float:left;
+    width: 20%;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #666699;
+}
+.main
+{
+   margin-left: 22%;
+   padding-left: 1em;
+}
+
 .navbarmain
 {
     margin-top:0;
@@ -81,17 +97,6 @@ the sub-entry. */
 .navbarnestnest li a, .navbarnestnest li b
 {
     padding-left: 20pt;
-}
-.navbar
-{
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    background-color: #666699;
-}
-.main
-{
-    padding-left: 1em;
 }
 .sf
 {
