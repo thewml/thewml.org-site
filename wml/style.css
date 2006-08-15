@@ -1,7 +1,7 @@
 .navbarmain
 {
-        margin-top:0;
-        margin-left:2px;
+    margin-top:0;
+    margin-left:2px;
     padding-top: 0em;
     padding-left: 0em;
 }
@@ -17,7 +17,7 @@
     border-bottom: solid 2pt black;
     border-right: solid 2pt black;
     margin-bottom: 1.5pt;
-        width:100px;
+    width:100px;
 }
 
 .navbarmain a
@@ -32,7 +32,7 @@
 the sub-entry. */
 .navbarmain br
 {
-        display: none;
+    display: none;
 }
 .navbarmain a, .navbarmain b
 {
@@ -45,7 +45,7 @@ the sub-entry. */
 }
 .navbarmain a:hover, .navbarmain b
 {
-        background-color: #9999CC;
+    background-color: #9999CC;
 }
 .navbarmain a
 {
@@ -54,8 +54,8 @@ the sub-entry. */
 }
 .navbarnested
 {
-margin:0;
-padding:0;
+    margin:0;
+    padding:0;
 }
 .navbarnested li
 {
@@ -67,7 +67,7 @@ padding:0;
 }
 .navbarnested li a, .navbarnested li b
 {
-  padding-left: 10pt;
+    padding-left: 10pt;
 }
 .navbarnestnest
 {
@@ -223,7 +223,7 @@ padding:0;
 }
 .form
 {
-    font-famly: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .email
 {
