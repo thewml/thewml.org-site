@@ -2,31 +2,31 @@
 {
         margin-top:0;
         margin-left:2px;
-	padding-top: 0em;
-	padding-left: 0em;
+    padding-top: 0em;
+    padding-left: 0em;
 }
 .navbarmain li
 {
-	display: block;
-	font-size: 130%;	
-	font-family: arial, sans-serif;
-	font-weight: bold;
-	text-decoration: none;
-	border-top: solid 1.5pt #9999FF;
-	border-left: solid 1.5pt #9999FF;
-	border-bottom: solid 2pt black;
-	border-right: solid 2pt black;
-	margin-bottom: 1.5pt;
+    display: block;
+    font-size: 130%;    
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: solid 1.5pt #9999FF;
+    border-left: solid 1.5pt #9999FF;
+    border-bottom: solid 2pt black;
+    border-right: solid 2pt black;
+    margin-bottom: 1.5pt;
         width:100px;
 }
 
 .navbarmain a
 {
-	text-decoration: none;
+    text-decoration: none;
 }
 .navbarmain a, .navbarmain b
 {
-	display: block;
+    display: block;
 }
 /* This is to avoid the one line spacing between the nav-menu entry and
 the sub-entry. */
@@ -36,12 +36,12 @@ the sub-entry. */
 }
 .navbarmain a, .navbarmain b
 {
-	padding-top: 3pt;
-	padding-bottom: 3pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
 }
 .navbarmain a, .navbarmain b
 {
-	padding-left: 3pt;
+    padding-left: 3pt;
 }
 .navbarmain a:hover, .navbarmain b
 {
@@ -49,8 +49,8 @@ the sub-entry. */
 }
 .navbarmain a
 {
-	color: white;
-	background-color: #666699;
+    color: white;
+    background-color: #666699;
 }
 .navbarnested
 {
@@ -71,138 +71,138 @@ padding:0;
 }
 .navbarnestnest
 {
-	padding-left:0;
-	margin-left:0;
+    padding-left:0;
+    margin-left:0;
 }
 .navbarnestnest li
 {
-	font-size: 80%;
+    font-size: 80%;
 }
 .navbarnestnest li a, .navbarnestnest li b
 {
-	padding-left: 20pt;
+    padding-left: 20pt;
 }
 .navbar
 {
-	padding-top: 0.5em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	background-color: #666699;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #666699;
 }
 .main
 {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 .sf
 {
-	font-size: 120%;
-	font-family: Arial,Helvetica,sans-serif;
+    font-size: 120%;
+    font-family: Arial,Helvetica,sans-serif;
 }
 .link
 {
-	color: #ddddff;
+    color: #ddddff;
 }
 .title
 {
-	font-size: 120%;
+    font-size: 120%;
 }
 .news
 {
-	font-family: Arial,Helvetica, sans-serif;
-	color: #ccccff;
+    font-family: Arial,Helvetica, sans-serif;
+    color: #ccccff;
 }
 .tarball
 {
-	color: #339933;
+    color: #339933;
 }
 .unstable
 {
-	color: #cc9933;
+    color: #cc9933;
 }
 .snapshot
 {
-	color: #cc3333;
+    color: #cc3333;
 }
 .binary
 {
-	color: #666699;
+    color: #666699;
 }
 .news_block
 {
-	background-color: #666699;
-	text-align: center;
-	margin-top: 1em;
-	margin-bottom: 1em;
+    background-color: #666699;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .copyright
 {
-	color: #c0c0c0;
-	font-size: 90%;
-	font-family: Arial, Helvetica, sans-serif;
+    color: #c0c0c0;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .copyright hr
 {
-	width: 20%;
+    width: 20%;
 }
 .copyright a
 {
-	color: #c0c0c0;
+    color: #c0c0c0;
 }
 .snb
 {
-	background-color: #666699;
-	margin-left:1em;
+    background-color: #666699;
+    margin-left:1em;
 }
 .snb a
 {
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .snb td
 {
-	padding-bottom:0;
-	padding-left:0.3em;
-	padding-right:0.3em;
-	padding-top:0;
+    padding-bottom:0;
+    padding-left:0.3em;
+    padding-right:0.3em;
+    padding-top:0;
 }
 .classify
 {
-	border-spacing:0;
-	width:76%;
+    border-spacing:0;
+    width:76%;
 }
 .classify .details td
 {
-	background-color: #ccccff;
-	font-size: 80%;
+    background-color: #ccccff;
+    font-size: 80%;
 }
 
 .classify .class_title td
 {
-	background-color: #9999cc;
-	color:white;
-	font-weight:bold;
+    background-color: #9999cc;
+    color:white;
+    font-weight:bold;
 }
 .classify td
 {
-	padding-right:2em;
+    padding-right:2em;
 }
 .box
 {
-	border: 1px solid black;
-	margin-left: 1em;
-	padding: 0.2em;
+    border: 1px solid black;
+    margin-left: 1em;
+    padding: 0.2em;
 }
 .colored_box
 {
-	background-color: #ccccff;
+    background-color: #ccccff;
 }
 .box h3
 {
-	margin-top:0em;
+    margin-top:0em;
 }
 .indent
 {
-	margin-left: 1em;
+    margin-left: 1em;
 }
 .smallcaps
 {
@@ -231,9 +231,9 @@ padding:0;
 }
 .disc
 {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 .square
 {
-	list-style-type: square;
+    list-style-type: square;
 }
