@@ -107,9 +107,7 @@ else
 {#PAGE_HEAD#}
 </head>
 <body>
-<table border=0 cellspacing=0 cellpadding=0>
-<tr>
-  <td class="navbar" align="left" valign="top">
+<div class="navbar" id="navbar">
     <a href="http://swpat.ffii.org/" 
        title="Stop Software Patents!"><img 
        src="$(COM)/navbar/no-e-patents.png" alt="Stop Software Patents!"
@@ -118,12 +116,9 @@ else
     <img src="$(COM)/navbar/button-n-sw.gif" alt="Free Software" /><br />
     <img src="$(COM)/navbar/button-i-$(PACKAGE_ID).gif" alt="WML" /><br /> 
 <:{ print join("\n", @$nav_html); }:>
-  </td>
+</div>
 
-  <td class="main" valign="top">
-    <table cellspacing="0" cellpadding="0" width="550">
-    <tr>
-      <td valign="top">
+<div class="main" id="main">
         <: $sc = "$(area)";
            if ($sc ne "title") {
                print '<'."img src=\"$(COM)/navbar/headline-$sc.gif\"";
@@ -137,12 +132,7 @@ else
         :PAGE_BODY]
         [PAGE_FOOT:
         <!-- END OF ACTUAL PAGE CONTENTS -->
-      </td>
-    </tr>
-    </table>
-  </td>
-</tr>
-</table>
+</div>
 </body>
 </html>
 {#PAGE_PRELOADS#}
