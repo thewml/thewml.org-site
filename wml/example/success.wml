@@ -1,0 +1,18 @@
+
+#use wml::tmpl::swpage area=example subarea
+<page_title name="Examples / References">
+
+#use wml::des::typography
+
+<p>
+#include "example/SNB"
+
+<p>
+<zwue>User Reference Page</zwue>
+
+<p>
+Your submission has been sent to the maintainer of this list.
+You will be advertised when this list is updated.
+
+<p>
+Thanks for using WML.

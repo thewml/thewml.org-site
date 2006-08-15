@@ -1,0 +1,127 @@
+#!wml -o ALL-HTML:%BASE.phtml -o ALL-PHTML:%BASE.html
+
+#depends 'example/refs.db'
+
+#use wml::tmpl::swpage area=example subarea
+<page_title name="Examples / References">
+
+#use wml::std::href
+#use wml::des::typography
+#use wml::fmt::xtable
+#use wml::std::box
+
+#include "example/SNB" area=refs
+
+<h2>User Reference Page</h2>
+
+<p>
+Here you can find the list of known Webpages, Webareas and Websites other
+people have created by the help of Website Meta Language.  If you have created
+something yourself via WML too or at least know someone who has, please add an
+entry to this list: 
+</p>
+
+<form method="post" action="http://www.iglu.org.il/cgi-bin/cgiemail/cgiemail-templates/wml-refs">
+<div class="box news">
+<h3>Submit New Entry</h3>
+<br />
+<input type="hidden" name="success" value="[HTML:http://thewml.org/example/success.html:][PHTML:<? $_ = $ENV{'SCRIPT_SRC_URL'}; s/$(WML_SRC_BASENAME)\.p/success./; print; !>:]" />
+<table class="form">
+<define-tag myfield>
+<preserve title default name />
+<set-var %attributes />
+<tr>
+<td>
+<b><get-var title />:</b>
+</td>
+<td colspan="3">
+<input name="<get-var name />" size=60 value="<get-var default />" />
+</td>
+</tr>
+<restore title default name />
+</define-tag>
+<myfield name="required-url" title="URL" default="http://www.average.dom/~joe/" />
+<myfield name="template-location" title="Template Location" default="http://www.average.dom/~joe/tmpl/" />
+<myfield name="content-summary" title="Content Summary" default="Private Homepages" />
+<tr>
+<td>
+<b>Author Name:</b>
+</td>
+<td>
+<input name="author-name" size=25 value="Joe Average" />
+</td>
+<td>
+<b>Author Email:</b>
+</td>
+<td>
+<input name="author-email" size=25 value="joe\@average.dom" />
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<input type="submit" value="Submit to this list!" />
+</td>
+</tr>
+</table>
+</div>
+</form>
+
+<define-tag refs-list>\
+<protect pass=2>\
+open(FP, "< example/refs.db");
+binmode FP, ":iso8859-1";
+binmode STDOUT, ":utf8";
+while (<FP>) {
+    next if (m|^\s*$|);
+    next if (m|^\s*#.*$|);
+    s/::\s*$//;
+    $_ = CGI::escapeHTML($_);
+    if (m|^(.+?)::(.+?)::(.+?)::(.+?)::(.+?)$|) {
+        ($url, $descr, $name, $email, $tmpl) = ($1, $2, $3, $4, $5);
+    } elsif (m|^(.+?)::(.+?)::(.+?)::(.+?)$|) {
+        ($url, $descr, $name, $email, $tmpl) = ($1, $2, $3, $4, '');
+    } elsif (m|^(.+?)::(.+?)::(.+?)$|) {
+        ($url, $descr, $name, $email, $tmpl) = ($1, $2, $3, '', '');
+    } else {
+        next;
+    }
+    if ($tmpl eq '') {
+        $li_type = "disc";
+    } else {
+        $li_type = "square";
+    }
+    $url =~ s/HTTP:/http:/;
+    $urltxt = $url;
+    $urltxt =~ s|^http://||;
+    $urltxt =~ s|/$||;
+    print "<"."li class=\"$li_type\">";
+    print "<"."a href=\"$url\"><b>$urltxt</b></a>\n";
+    print "&nbsp;&nbsp;&nbsp;<"."a href=\"$tmpl\"><i>(Templates)</i></a>\n"
+      if ($tmpl ne '');
+    print "<br /><i>$name";
+	print ", <"."a href=\"mailto:$email\" class=\"email\">"."$email</a>"
+	  if ($email ne '');
+	print "</i><br />\n";
+    print "$descr\n";
+    print "</li>\n";
+}
+close(FP);
+</protect>\
+</define-tag>
+
+<p>
+In the list below, square items are used when wml source files
+are available, replacing the file suffix by <tt>.wml</tt>.
+<br />
+<b>____________________</b>
+<br />
+</p>
+
+<ul>
+[HTML:\
+<: <refs-list> :>\
+:][PHTML:\
+<? <refs-list> !>\
+:]
+</ul>
+

@@ -1,0 +1,25 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation">
+
+#use wml::std::href
+#use wml::des::typography
+
+#include "docs/SNB" area=aux
+
+<h2>Auxilliaries</h2>
+
+These programs are used from within some WML Includes files.
+
+<ul>
+<:
+    foreach $file (glob("docs/aux/*.html")) {
+		$file =~ s!^docs/!!;
+		$name = $file;
+		$name =~ s|^aux/||;
+		$name =~ s|\.html$||;
+		print "<li><"."a href=\"$file\"><b>$name</b></a></li>\n";
+	}
+:>
+</ul>
+

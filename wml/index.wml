@@ -1,0 +1,124 @@
+
+#use wml::des::imgdot
+#use wml::des::typography
+#use wml::des::space
+#use wml::std::box
+
+#use wml::tmpl::swpage area=title
+#include "VERSION"
+
+<define-tag sf endtag=required>
+<b class="sf">%body</b>
+</define-tag>
+
+<page_title name="Title">
+
+{#PAGE_HEAD#:
+<meta name="keywords" content="\
+Website META Language HTML markup generation toolkit webdesign design
+" />
+<meta name="description" content="\
+WML is a free HTML generation toolkit for
+Unix, distributed under the GNU General Public License (GPL v2). It internally
+consists of 9 core languages and a set of additional include files. The main
+idea of WML is a sequential filtering scheme where each language provides one
+of 9 processing passes. So WML reads an input file, applies passes 1-9 (or
+optionally only the passes specified) and finally produces one or more output
+files.
+" />
+:##}
+
+{#NEWSFLASH#:
+Support for Perl 5.8.0 added in WML 2.0.9
+#It's Summer day, WML 2.0.7 is out!
+#It finally happens, WML 2.0 is out!
+#Have a look at a list of <a href="example/refs.phtml"><b class="link">WML generated sites</b></a>
+#Welcome Denis Barbier, the new WML maintainer!
+# Join the <a href="news/list.html"><b class="link">WML Support Mailing List</b></a> NOW:
+# &nbsp;&nbsp;&nbsp;sw-wml&nbsp;@&nbsp;engelschall.com
+:##}
+
+<img src="logo.jpg" alt="Website META Language" /> 
+<br />
+<div style="margin-left: 140px">
+<i class="title">``WML is the Unix toolkit for getting<br />
+&nbsp;&nbsp;your webdesigner's HTML job done.''</i>
+</div>
+
+<div class="news_block">
+<b class="news">
+{#NEWSFLASH#}
+</b>
+</div>
+
+<br />
+<p>
+###<img src="index.gfont000.gif" alt="W" width="51" height="35" border="0" align="left">\
+WML is a free and extensible Webdesigner's off-line HTML generation
+toolkit for Unix, distributed under the GNU General Public License (GPL v2).
+It is written in ANSI C and Perl 5, built via a GNU Autoconf based source tree
+and runs out-of-the-box on all major Unix derivates.  It can be used free of
+charge both in educational and commercial environments.
+</p>
+ 
+<p>
+WML consists of a control frontend driving up to nine backends in a sequential
+pass-oriented filtering scheme. Each backend provides one particular core
+language. For maximum power WML additionally ships with a well-suited set of
+include files which provide higher-level features built on top of the backends
+core languages. 
+</p>
+<p>
+While not trivial and idiot proof WML provides most of the
+core features real hackers always wanted for HTML generation.
+</p>
+
+<div class="news_block">
+<b class="news">
+{#NEWSFLASH#}
+</b>
+</div>
+
+<br />
+<br />
+<box bdwidth=1 bdspace=5>
+<table cellspacing=0 cellpadding=2 border=0>
+<tr>
+<td><sf>Release:</sf></td> <td><sf><get-var VERSION></sf></td> 
+<td><sf>(<get-var DATE>)</sf></td> <td>
+<sf>&nbsp; [ <a href="distrib/wml-<get-var VERSION>/" class="tarball">browse</a> | 
+             <a href="distrib/wml-<get-var VERSION>.tar.gz" class="tarball">tarball</a> ]</sf> 
+</td>
+</tr>
+<when <get-var VERSION_UNSTABLE>>
+<tr>
+<td><sf>Release:</sf></td> <td><sf><get-var VERSION_UNSTABLE></sf></td> 
+<td><sf>(unstable)</sf></td> <td>
+<sf>&nbsp; [ <a href="distrib/wml-<get-var VERSION_UNSTABLE>/" class="unstable">browse</a> | 
+             <a href="distrib/wml-<get-var VERSION_UNSTABLE>.tar.gz" class="unstable">tarball</a> ]</sf> 
+</td>
+</tr>
+</when>
+<tr>
+<td><sf>Snapshot:</sf></td> <td><sf> SNAP</sf></td> <td><sf>(current)</sf></td>
+<td>
+<sf>&nbsp; [ <a href="distrib/wml-SNAP/" class="snapshot">browse</a> ] </sf> 
+</td>
+</tr>
+<tr>
+<td><sf>Binaries:</sf></td> <td>&nbsp;</td> <td>&nbsp;</td>
+<td>
+<sf>&nbsp; [ <a href="distrib/binary.html" class="binary">browse</a> ] </sf> 
+</td>
+</tr>
+</table>
+</box>
+
+<p>
+Ideas, Suggestions or any Problems?<br />
+Then please send a <a href="$(ROOT)/../bugreport/?package=WML&amp;version=<get-var
+VERSION>"><b>Bug Report</b></a> or join the <a href="news/list.html"><b>WML
+Mailing List</b></a> <i><b>!</b></i>
+</p>
+
+<ssi_footer>

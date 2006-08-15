@@ -1,0 +1,68 @@
+#use wml::tmpl::swpage area=about subarea
+<page_title name="About">
+
+#include "about/SNB" area=class
+
+<h2>Program Classification</h2>
+
+<p>
+WML can be classified as follows:
+</p>
+
+<table class="classify">
+<tr class="class_title">
+<td>
+Implementation
+</td>
+<td>
+Requirements
+</td>
+</tr>
+<tr class="details">
+<td>
+<ul>
+    <li>105.000 LoC ANSI C source</li>
+    <li>12.000 LoC Perl 5 source</li>
+    <li>6.700 LoC WML source</li>
+    <li>3.300 LoC POD documentation</li>
+</ul>
+</td>
+<td>
+<ul>
+    <li>ANSI C compiler</li>
+    <li>Perl 5 interpreter</li>
+    <li>Unix derivate</li>
+</ul>
+</td>
+</tr>
+<tr class="class_title">
+<td>
+Availability
+</td>
+<td>
+Status
+</td>
+</tr>
+<tr class="details">
+<td>
+<ul>
+    <li>freely distributable</li>
+    <li>freely useable</li>
+    <li>no charge</li>
+    <li>copyrighted</li>
+    <li>GNU <a href="../distrib/wml-SNAP/COPYING">General Public License</a> v2</li>
+</ul>
+</td>
+<td>
+<ul>
+    <li>genesis: December 1996</li>
+    <li>first release: August 1997</li>
+    <li>no real bugs known, but some restrictions</li>
+    <li>prototype, so a little bit ugly in design and<
+	    lacks good runtime performance</li>
+    <li>active development</li>
+    <li>stable</li>
+</ul>
+</td>
+</tr>
+</table>

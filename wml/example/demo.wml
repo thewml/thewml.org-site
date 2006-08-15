@@ -1,0 +1,19 @@
+
+#use wml::tmpl::swpage area=example subarea
+<page_title name="Examples">
+
+#use wml::std::href
+#use wml::des::typography
+#use wml::std::box
+
+#include "example/SNB" area=demo
+
+<h2>Feature Demonstration Pages</h2>
+
+<p>
+Second we have started to create an area containing inout/output views of WML
+features.  Each demo typically demonstrates a few single features of WML only.
+This webarea is called the <a href="demo/"><b>WML Feature Demonstration
+Pages</b></a>.  It is still under construction, but a few examples are already
+available.
+</p>

@@ -1,0 +1,30 @@
+
+#use wml::tmpl::swpage area=docs
+<page_title name="Documentation">
+
+#use wml::std::href
+#use wml::des::typography
+
+#include "docs/SNB" area=intro
+
+<h2>Introduction and Overview</h2>
+
+<p>
+WML is a very powerful but also complex toolkit for HTML generation. So,
+first read the following three documents to understand the basics of WML and
+the way it works and looks.
+</p>
+
+<ul>
+<li><href name="<b>wml_intro</b>" url="docs/wml_intro.html"><br />
+     An introduction to WML's basic concepts</li>
+<li><href name="<b>wml_tutorial</b>" url="docs/wml_tutorial.html"><br />
+     Understanding WML step-by-step</li>
+<li><href name="<b>wml_macros</b>" url="docs/wml_macros.html"><br />
+     Writing macros for WML</li>
+<li><href name="<b>wml_faq</b>" url="docs/wml_faq.html"><br />
+     Frequently Asked Questions on WML</li>
+<li><href name="<b>wml_tags</b>" url="docs/wml_tags.html"><br />
+     Permutated index of defined WML tags</li>
+</ul>
+

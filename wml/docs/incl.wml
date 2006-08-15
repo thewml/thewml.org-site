@@ -1,0 +1,41 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation">
+
+#use wml::std::href
+#use wml::des::typography
+
+#include "docs/SNB" area=incl
+
+<h2>Include Files</h2>
+
+<p>
+These include files provide the additional higher level features.  There
+functionality is based upon both the core languages and the auxiliary
+programs. (They can be explicitly loaded when needed via <tt>#use</tt> or
+<tt>#include</tt> directives). 
+</p>
+
+<:
+    my $encountered = 0;
+    foreach $file (glob("docs/incl/*.html")) {
+		$file =~ s|^docs/||;
+		$name = $file;
+		$name =~ s|^incl/||;
+		$name =~ s|\.html$||;
+		if ($name =~ m|all$|) {
+            if ($encountered)
+            {
+                print "</ul>\n";
+            }
+            else
+            {
+                $encountered = 1;
+            }
+            print "<ul>\n";
+		}
+        print "<li><"."a href=\"$file\"><b>$name</b></a></li>\n";
+	}
+:>
+</ul>
+

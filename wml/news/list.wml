@@ -1,0 +1,83 @@
+
+#use wml::tmpl::swpage area=news subarea
+<page_title name="Website META Language / Mailing List">
+
+#use wml::std::box
+
+#include "news/SNB" area=list
+
+<h2>Mailing List</h2>
+
+<p>
+There is an official support mailing list for WML users: 
+</p>
+
+<div class="box">
+<b>wml-users</b> <b>@</b> <b>thewml.org</b>
+</div>
+
+<p>
+Here you can reach the WML maintainer Denis Barbier and the
+other people who use WML and which can help you in case of
+problems. Use this forum to spread your ideas and suggestion,
+too. Feel free to ask anything WML-related you want.
+This mailing-list is international and all messages must be
+posted in English.
+</p>
+
+<h2>Hypertext Archive</h2>
+
+<p>
+The mailing list is automatically archived and a HTML representation is
+generated once a day for Web access.
+</p>
+
+<div class="box colored_box">
+<form action="list.search.cgi" method="get">
+<table>
+<tr>
+<td valign="top">
+<h3>Direct Access:</h3>
+<a href="list/lastthread.shtml">By Thread</a>,&nbsp;
+<a href="list/lastdate.shtml">By Date</a><br />
+#<a href="list/subject.html">By Subject</a>,&nbsp;
+#<a href="list/author.html">By Author</a>
+</td>
+<td valign="top">
+<h3>Fulltext Query:</h3>
+<input type="text" name="query" value="" size="15" />
+<input type="submit" value="Search!" />
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<h2>Subscription</h2>
+
+<p>
+To subscribe to this Majordomo-controlled mailing list, just send an E-mail to
+<tt>petidomo</tt><tt>@thewml.org</tt> with only
+</p>
+
+<div class="indent">
+<p>
+<tt>subscribe wml-users</tt> <i>you@domain.dom</i>
+</p>
+</div>
+
+<p>
+in the <i>body</i> (leave the subject empty). After sending this, Majordomo
+will respond with an authority challenge which has to send back again for
+security reasons (to avoid that others subscribe you without your ok). Now you
+are successfully subscribed to this list.
+</p>
+
+<p>
+Please notice that this list allows only subscribers to post because of the
+existing spamming services. So make sure you're already subscribed before
+posting and that your E-mail address when posting is the same as used when you
+subscribed. If it's not possible for you to use exactly this address please
+mail <a href="mailto:rse@engelschall.com">Ralf S. Engelschall</a> the
+additional addresses you want to allow posting.
+</p>

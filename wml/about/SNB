@@ -1,0 +1,8 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=descr txt="Description"    url="index.html" />
+<snb_button id=class txt="Classification" url="class.html" />
+</snb>
+

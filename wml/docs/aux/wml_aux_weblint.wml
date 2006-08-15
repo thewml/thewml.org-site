@@ -1,0 +1,15 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / WebLint">
+
+#use wml::imp::generic
+#depends 'docs/aux/weblint.html'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+{: [[s|^.*<body [^>]*>||s]]
+[[s|</body>.*$||s]]
+<include docs/aux/weblint.html verbatim=true>
+:}
+

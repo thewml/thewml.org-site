@@ -1,0 +1,14 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / Map2HTML">
+
+#use wml::imp::generic
+#depends 'docs/aux/wml_aux_map2html.pod'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+{: [[s|(wml_p.+?)\(([1-7])\)|<a href="$1.html">$1</a>($2)|g]]
+<import src="docs/aux/wml_aux_map2html.pod">
+:}
+

@@ -1,0 +1,12 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / LinkLint">
+
+#use wml::imp::generic
+#depends 'docs/aux/wml_aux_linklint.pod'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+<import src="docs/aux/wml_aux_linklint.pod">
+

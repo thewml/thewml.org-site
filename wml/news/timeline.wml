@@ -1,0 +1,89 @@
+
+#use wml::tmpl::swpage area=news subarea
+<page_title name="News">
+
+#include "news/SNB" area=timeline
+
+<h2>Timeline Events</h2>
+<ul>
+<li>20011030: Released Version 2.0.8. A bugfix release.</li>
+<li>20010621: Released Version 2.0.7. A bugfix release.</li>
+<li>20001025: Released Version 2.0.6. A bugfix release.</li>
+<li>20001023: Released Version 2.0.5. A bugfix release.</li>
+<li>20000919: Released Version 2.0.4. A bugfix release.</li>
+<li>20000904: Released Version 2.0.3. A bugfix release.</li>
+<li>20000622: Released Version 2.0.2. A feature-fix release to improve
+compatibility with WML 1.x.</li>
+<li>20000523: Released Version 2.0.1. A bugfix release.</li>
+<li>20000511: Released Version 2.0.0. A major release.</li>
+<li>19991006: Released Version 1.7.4. A bugfix release.</li>
+<li>19990930: Released Version 1.7.3. A maintainance release.</li>
+<li>19990628: Released Version 1.7.2. A minor bugfix release.</li>
+<li>19990605: Released Version 1.7.1. A minor bugfix release.</li>
+<li>19990603: Released Version 1.7.0. A major release.</li>
+<li>19990114: Released Version 1.6.8. A long awaited maintainance
+release.</li>
+<li>19980802: Released Version 1.6.7. A maintainance release.</li>
+<li>19980625: Released Version 1.6.6. A portability and minor bugfix
+release.</li>
+<li>19980616: Released Version 1.6.5. A maintainance release.</li>
+<li>19980323: Released Version 1.6.4. A minor patchlevel release.</li>
+<li>19980305: Released Version 1.6.3. A minor patchlevel release.</li>
+<li>19980219: Released Version 1.6.2. A minor patchlevel release.</li>
+<li>19980215: Released Version 1.6.1. A minor patchlevel release.</li>
+<li>19980209: Released Version 1.6.0. A new major release!</li>
+<li>19980116: Released Version 1.5.1.</li>
+<li>19980111: Released Version 1.5.0.</li>
+<li>19971231: Released Version 1.4.11. Shit happens: 1.4.10 had a broken
+ePerl.</li>
+<li>19971230: Released Version 1.4.10.</li>
+<li>19971227: Released Version 1.4.9.</li>
+<li>19971223: Released Version 1.4.8.</li>
+<li>19971221: NEW: USA mirror for the <a href="../distrib/"><b>distribution
+tarballs</b></a> !</li>
+<li>19971220: NEW: <a href="list.html"><b>WML Support Mailing List</b></a>:
+sw-wml@engelschall.com</li>
+<li>19971219: Released Version 1.4.7.</li>
+<li>19971215: Another frontend available: <a
+href="../docs/core/wmb.html"><b>wmb</b></a> </li>
+<li>19971215: Released Version 1.4.6. An enhancement release.</li>
+<li>19971209: New include file available: <a
+href="../docs/incl/wml::des::preload.html"><b>wml::des::preload</b></a> </li>
+<li>19971209: Released Version 1.4.5. An enhancement and portability
+release.</li>
+<li>19971201: Released Version 1.4.4. An enhancement release.</li>
+<li>19971130: New killer include file available: <a
+href="../docs/incl/wml::des::navbar.html"><b>wml::des::navbar</b></a> </li>
+<li>19971130: Released Version 1.4.3. An enhancement release.</li>
+<li>19971129: Released Version 1.4.2. An enhancement release.</li>
+<li>19971124: Released Version 1.4.1. A portability release.</li>
+<li>19971123: Now there is a documentation browsing frontend: <a
+href="../docs/core/wmd.html">WMd</a></li>
+<li>19971123: Released Version 1.4.0. An enhancement, bugfix and cleanup
+release.</li>
+<li>19971115: Now there is a <a href="../example/refs.phtml"><b>User Reference
+Page</b></a>.</li>
+<li>19971114: Released Version 1.3.5. A bugfix release.</li>
+<li>19971110: Released Version 1.3.4. A bugfix release.</li>
+<li>19971107: Released Version 1.3.3. A bugfix release.</li>
+<li>19971103: Released Version 1.3.2. A bugfix and enhancement release.</li>
+<li>19971027: Released Version 1.3.1. A bugfix and enhancement release.</li>
+<li>19971015: Released Version 1.3.0. An enhancement release.</li>
+<li>19970905: Released Version 1.2.3. A bugfix and enhancement release.</li>
+<li>19970908: Released Version 1.2.2. A bugfix and enhancement release.</li>
+<li>19970830: Released Version 1.2.1. A bugfix and enhancement release.</li>
+<li>19970826: Now there is an overhauled <a
+href="../docs/docs/wml_intro.html"><b>WML Introduction</b></a> document.</li>
+<li>19970825: Released Version 1.2.0. The third major release.</li>
+<li>19970825: Now there is a <a href="../docs/docs/wml_tutorial.html"><b>WML
+Tutorial</b></a> document.</li>
+<li>19970820: Overhauled the webpages, especially the title page.</li>
+<li>19970820: Added first version of <a href="../example/demo/"><b>WML
+            Demonstration Pages</b></a>.</li>
+<li>19970819: Released Version 1.1.0. The second major release.</li>
+<li>19970815: Overhauled the <a href="../docs/">WML docs</a> area. Now all docs
+are readable online.</li>
+<li>...</li>
+</ul>
+
+

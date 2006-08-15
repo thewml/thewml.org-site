@@ -1,0 +1,36 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / Perl">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=perl
+
+<p>
+<zwue>Practical Extraction and Reporting Language (Perl)</zwue>
+
+These are references to the Perl Scripting Language which is provided inside
+WML by Pass 3 (ePerl) as the primary programming language for offline
+server-side generation (in contrast to JavaScript which is an online
+client-side one).  Perl code snippets can be easily included into pages by
+using WML's <tt>&lt;perl&gt;</tt> container tag from wml::std::tags.
+
+<ul>
+   <item name="Perl.COM: The Perl Home"
+         url="http://www.perl.com/">
+   <item name="Perl.ORG: The Perl Institute"
+         url="http://www.perl.org/">
+   <item name="Perl Documentation" aio
+         url="http://www.engelschall.com/ar/perldoc/">
+   <item name="CPAN: Browse"
+         url="ftp://ftp.funet.fi/pub/languages/perl/CPAN/">
+   <item name="CPAN: Complete Module List"
+         url="http://www.perl.com/CPAN-local/modules/00modlist.long.html">
+   <item name="CPAN: List of Recent Updates"
+         url="http://www.perl.com/CPAN-local/RECENT.html">
+   <item name="CPAN: Search Engine (WAIT)"
+         url="http://ls6.informatik.uni-dortmund.de/ir/projects/SFgate/WAIT/CPAN.html">
+</ul>
+

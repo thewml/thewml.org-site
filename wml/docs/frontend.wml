@@ -1,0 +1,27 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation">
+
+#use wml::std::href
+#use wml::des::typography
+
+#include "docs/SNB" area=frontend
+
+<h2>Frontends</h2>
+
+<p>
+These programs provide the user interface of WML.
+</p>
+
+<ul>
+<li><href name="<b>wml</b>" url="frontend/wml.html"><br />
+     WML Main - the main frontend and control program </li>
+<li><href name="<b>wmk</b>" url="frontend/wmk.html"><br />
+     WML Make - highlevel frontend to <tt>wml</tt> </li>
+<li><href name="<b>wmd</b>" url="frontend/wmd.html"><br />
+     WML Doc - Curses-based documentation browser</li>
+<li><href name="<b>wmb</b>" url="frontend/wmb.html"><br />
+     WML Bug Report - Bug reporting tool</li>
+<li><href name="<b>wmu</b>" url="frontend/wmu.html"><br />
+     WML Upgrade - Upgrade Utility</li>
+</ul>

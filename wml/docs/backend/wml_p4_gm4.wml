@@ -1,0 +1,12 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Core / GNU m4 (Pass 4)">
+
+#use wml::imp::generic
+#depends 'docs/backend/wml_p4_gm4.txt'
+
+<p>
+#include "docs/SNB" area=backend subarea
+
+<import src="docs/backend/wml_p4_gm4.txt" format="verbatim">
+

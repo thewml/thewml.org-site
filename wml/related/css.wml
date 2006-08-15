@@ -1,0 +1,29 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / CSS">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=css
+
+<p>
+<zwue>Cascading Style Sheets (CSS)</zwue>
+
+Cascading Style Sheets are the official W3C standard for specifying layouting
+attributes for webpages. The current version Level 1 (CSS1) is supported in
+Netscape Communicator 4 and Internet Explorer 4. The next generation is Level
+2 (CSS2), currently only defined as a working draft with no real support in
+browsers.
+
+<ul>
+    <item name="Style Sheets Reference Guide" aio
+          url="http://style.webreview.com/">
+    <item name="Style Sheets W3C Home"
+	      url="http://www.w3.org/Style/">
+	<item name="CSS1 Specification (W3C REC 17-Dec-1996)"
+	      url="http://www.w3.org/TR/REC-CSS1">
+	<item name="CSS2 Specification (W3C REC 12-May-1998)"
+	      url="http://www.w3.org/TR/REC-CSS2/">
+</ul>

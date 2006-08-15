@@ -1,0 +1,11 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=intro      txt="Introduction"   url="index.html" />
+<snb_button id=frontend   txt="Frontends"      url="frontend.html" />
+<snb_button id=backend    txt="Backends"       url="backend.html" />
+<snb_button id=incl       txt="Includes"       url="incl.html" />
+<snb_button id=aux        txt="Auxilliaries"   url="aux.html" />
+</snb>
+

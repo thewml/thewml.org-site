@@ -1,0 +1,77 @@
+
+#use wml::tmpl::swpage area=distrib subarea
+<page_title name="Pre-compiled binaries">
+
+#use wml::des::typography
+#use wml::fmt::xtable
+#use wml::std::box
+#use wml::std::href
+
+#include "distrib/SNB" area=binaries
+
+<h2>WML pre-compiled binaries</h2>
+
+<p>
+Here you can find links to WML pre-compiled binaries. These are provided by
+third-party contributors, so please ask them directly if you have trouble
+when installing.
+</p>
+
+<div class="colored_box">
+<p>
+Check the package repository of your distribution for the relevant pacakges.
+</p>
+;;;<xtable border=2 cellspacing=0 cellpadding=5> 
+;;;(*,*) valign=top
+;;;((1,1))
+;;;    WML
+;;;((1,+1))
+;;;    OS
+;;;((1,+1))
+;;;    OS version
+;;;((1,+1))
+;;;    Maintained by
+;;;((1,+1))
+;;;    Link
+;;;(+1,1)
+;;;    2.0.8
+;;;(=,+1)
+;;;    Linux
+;;;(=,+1)
+;;;    SuSE
+;;;(=,+1)
+;;;	Stefan Reinauer
+;;;(=,+1)
+;;;    <href url="http://www.suse.de/~stepan/wml/">
+;;;(+1,1)
+;;;    2.0.2
+;;;(=,+1)
+;;;    Linux
+;;;(=,+1)
+;;;    Red Hat 6.2
+;;;(=,+1)
+;;;	<protect pass=3>\
+;;;	<href url="barbier@engelschall.com" name="Denis Barbier">\
+;;;	</protect>
+;;;(=,+1)
+;;;    <href url="http://www.cmap.polytechnique.fr/~barbier/wml-2.0.2-1.i386.rpm"
+;;;          name="Binary RPM"> |
+;;;    <href url="http://www.cmap.polytechnique.fr/~barbier/wml-2.0.2-1.src.rpm"
+;;;          name="Source RPM">
+;;;(+1,1)
+;;;    1.7.2
+;;;(=,+1)
+;;;    Linux
+;;;(=,+1)
+;;;    Suse 6.2<br>Suse 5.3
+;;;(=,+1)
+;;;    <protect pass=3>\
+;;;	<href url="fuelber@cryogen.com" name="Gerhard Fülber">\
+;;;    </protect>
+;;;(=,+1)
+;;;    <href url="http://www.gfps.purespace.de/misc.html"
+;;;	      name="www.gfps.purespace.de/misc.html">
+;;;</xtable>
+</div>
+
+<ssi_footer>

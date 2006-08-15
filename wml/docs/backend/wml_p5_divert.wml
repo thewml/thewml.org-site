@@ -1,0 +1,22 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Core / Divert (Pass 5)">
+
+#use wml::imp::generic
+#depends 'docs/backend/wml_p5_divert.pod'
+
+<p>
+#include "docs/SNB" area=backend subarea
+
+{: [[s|(wml_p.+?)\(([1-7])\)|<a href="$1.html">$1</a>($2)|g]]
+[[s|&lt;(/?STRONG)&gt;|<$1>|g]]
+[[s|\&amp;lt;|\&lt;|g]]
+[[s|\&amp;gt;|\&gt;|g]]
+[[s|\&amp;amp;|\&amp;|g]]
+[[s|ltlt|&lt;&lt;|g]]
+[[s|gtgt|&gt;&gt;|g]]
+<protect pass=5>
+<import src="docs/backend/wml_p5_divert.pod">
+</protect>
+:}
+

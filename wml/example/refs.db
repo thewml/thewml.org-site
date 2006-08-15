@@ -1,0 +1,173 @@
+###  Acronyms:
+###    CNC:  Could Not Connect
+###    CTO:  Connection Timed Out
+###    FNF:  File Not Found
+###    UHN:  Unresolved Host Name
+http://www.engelschall.com/::The Authors Home ;_)::Ralf S. Engelschall::rse@engelschall.com::http://www.engelschall.com/com/tmpl/stdpage.wml
+http://www.openssl.org/::The OpenSSL Project::Ralf S. Engelschall::rse@engelschall.com::http://www.openssl.org/openssl.wml
+http://www.modssl.org/::The ModSSL Project::Ralf S. Engelschall::rse@engelschall.com::http://www.modssl.org/modssl.wml
+http://www.debian.org/::Debian/GNU Linux Home Page::Debian Webmaster::webmaster@debian.org
+http://www.ee.ethz.ch/teaching/matura/::Elektrotechnik Departement ETH Zürich::Tobias Oetiker::oetiker@ee.ethz.ch::http://www.ee.ethz.ch/teaching/matura/.wml/
+http://opensource.ee.ethz.ch/::OSS Repositery - Elektrotechnik Departement ETH Zürich::Tobias Oetiker::zaucker@ee.ethz.ch::http://opensource.ee.ethz.ch/.wml/
+http://www.ee.ethz.ch::Homepage of the Department of Electrical Engineering of ETH Zurich::Fritz Zaucker and Tobias Oetiker::webmaster@ee.ethz.ch::http://www.ee.ethz.ch/.wml/
+http://isg.ee.ethz.ch::IT Support Group of the Department of Electrical Engineering of ETH Zurich::ritz Zaucker and Tobias Oetiker::webmaster@ee.ethz.ch::http://isg.ee.ethz.ch/.wml/
+http://computing.ee.ethz.ch::Computing website of the Department of Electrical Engineering at ETH Zurich::Fritz Zaucker and Tobias Oetiker::webmaster@ee.ethz.ch::http://computing.ee.ethz.ch/.wml/
+http://webfactory.ee.ethz.ch::Webdesign activities at the IT Support Group of the Department of Electrical Engineering at ETH Zurich::Fritz Zaucker::zaucker@ee.ethz.ch::http://webfactory.ee.ethz.ch/.wml/
+http://people.ee.ethz.ch/~oetiker/webtools/rrdtool/::Round Robin Database Tool, sucessor of MRTG::Tobias Oetiker::oetiker@ee.ethz.ch::http://people.ee.ethz.ch/~oetiker/webtools/rrdtool/.wml/
+http://www.afg.ethz.ch/::Akademische Flug Gruppe Zürich::Fritz Zaucker::zaucker@ee.ethz.ch
+http://www.ethrat.ch::Governing Body of the Swiss Federal Institutes of Technology::Tobias Oetiker::oetiker@ee.ethz.ch
+http://www.cmpharm.ucsf.edu/cohen/::Fred Cohen Laboratory::Steve Sizemore::webmaster@www.cmpharm.ucsf.edu
+http://www.ieee.org/nnc/::IEEE Neural Network Council Home Page::Tomasz Cholewo::t.cholewo@ieee.org
+http://ci.uofl.edu/tom/::Private Homepages::Tomasz Cholewo::tjchol01@mecca.spd.louisville.edu::http://ci.uofl.edu/tom/tmpl/
+http://goethe.ira.uka.de/~wilhelmi/::Pirvate Homepages::Sebastion Wilhelmi::wilhelmi@ira.uka.de
+#UHN#http://galaxy.unicon.ru/::Galaxy Plus::Strange Alex::strange@camelot.spsl.nsc.ru
+http://www.muffin.org/~opp/::Private Homepages::Oliver Paulzen::opp@MuFFiN.Org
+#FNF#http://lab.housing.fsu.edu/~jhebert/faust/::The Mickee Faust Club::Jim Hebert::jhebert@compu-aid.com
+#UHN#http://www.gently.demon.co.uk/::Gently Web Server::Andrew Hawkins::andy@gently.demon.co.uk
+http://www.uni-karlsruhe.de/~ut5x/::Cafe Irrlicht::Oliver Hensel::Oliver.Hensel@gmx.net
+http://www.tamos.net/::Tamos::David E. Storey::dave@tamos.net
+#FNF#http://www.uco.ru/~garris/::Private Homepage::Igor V. Spiridonov::garris@trunk.uco.ru
+#FNF#http://personal.eunet.fi/pp/wwwwolf/::Private Homepage::Urpo Lankinen::wwwwolf@iki.fi
+#FNF#http://www.mindspring.com/~stk3/index.gr.html::Private Homepage::Steve Kostecke::steve@kostecke.net
+#UHN#http://birk157.studby.uio.no/::Private Homepage::Keneth Skaar::keeneths@geofysikk.uio.no
+#UHN#http://boris.kyb.ml.org/::Private Homepages::Boris Wesslowski::bwess@gmx.de
+#UHN#http://www.hispalinux.ctv.es/paginas.html::Hispa Linux::Webmaster Hispa Linux::webmaster@hispalinux.ctv.es
+#FNF#http://www.franken.de/users/bessie/::Private Homepages::Matt D. Herold::herold@bessie.franken.de
+http://www.computerexperts.co.uk/::Computer Experts::Webmaster CE::webmaster@computerexperts.co.uk
+#FNF#http://www.popup.be/Christian.Olivier/::Private Homepages (In French)::Christian OLIVIER::YouWant@writeme.com
+#CTO#http://www.simprovement.com::SimProvement - SJP's private site::Soenke J. Peters::peters@simprovement.com
+#CTO#http://www.laeos.net/::Laeos's Lair::Rex G. Feany::webmaster@laeos.net
+http://www.lifelink-international.org/::LIFELINK::Luke Diamand::luke.diamond@lifelink-international.org
+http://mistral.informatik.tu-muenchen.de/::MISTRAL Research and Developement Project::Nasim Nadjafi (Design)::n.nadjafi@muffin.org
+http://www.surefirev.com::SureFire Verification Inc.::Michael McNamara::mac@surefirev.com
+http://www.pasteur.fr/::Institut Pasteur::Stephane Bortzmeyer::bortzmeyer@pasteur.fr
+http://www.drh.net/::DRH Internet Services home page::David Harris::dharris@drh.net
+http://www.valleybrookcommunitychurch.org::Valley Brook Community Church Home Page::David Harris::dharris@drh.net
+http://www.bcnartdirecte.com::Art Promoters Website::Rafael C. Marcos::rafacm@bcnartdirecte.com
+http://laventa.it::The "La Venta" Exploring Team Home Page::Alvise Belotti::alvise@laventa.it
+http://www.freeware.de::Freeware - for free people::Heiko Franke::heiko.franke@freeware.de
+http://www.freenix.org/::Information about Free Unices (French only)::Stephane Bortzmeyer::bortzmeyer@freenix.org
+#http://www.cityscope.net/~bahwi/home.shtml::Private Homepages::Joseph Guhlin::bahwi@technologist.com
+#FNF#http://lrs.fmi.uni-passau.de/~joo/::Private Homepages::Jens Oberender::joo@lrs.fmi.uni-passau.de
+http://www.hillerzentri.de::Homepage of HILLER GmbH, Vilsbiburg::Walter Haslbeck::wh@hillerzentri.de
+http://www.hpc.uni.torun.pl/::Regional Multiprocessor Systems Laboratory NCU Torun::Michal Dombrowski::www@hpc.uni.torun.pl
+#FNF#http://www.acastra.hr::Fiat, Alfa Romeo and Lancia Dealer in Croatia::Davor Cengija::davor@linuxfan.com
+http://www.academia-cravatica.hr::Find out where are the origins of the cravat (the necktie, krawat)::Davor Cengija::davor@linuxfan.com
+http://www.azzit.de/humor/::Humor Homepages::Lukas Schröder::lukas@edeal.de
+http://www.lypold.de/::Lypold´s Modellbahnen::Lukas Schröder::lukas@edeal.de
+http://www.sudelbuch.de/::Satirical and literary diary::Jan Ulrich Hasecke::juh@sudelbuch.de
+#FNF#http://www.koeln.netsurf.de/~JanUlrich.Hasecke/GenerationenProjekt/::Literary Millennium Project::Jan Ulrich Hasecke::juh@pironet.de
+http://www.michael-kress.de::Private Homepage::Michael Kress::kress@hal.saar.de::http://www.michael-kress.de/tmpl/
+#CTO#http://www.rgstudio.com.pl/::RG Studio::Jan Rychter::jwr@rgstudio.com.pl
+#CTO#http://www.expocongres.com::Fairs and Exhibitions related company::Rafa C. Marcos::rafacm@bcnartdirecte.com::http://www.expocongres.com/wml.html
+http://www.brainstorm.fr/::Brainstorm::Webmaster Brainstorm::webadmin@brainstorm.fr
+http://www.fleeb.com::Private homepage::Trey Van Riper::fleeb@fleeb.com
+http://www.mpiz-koeln.mpg.de/mads/::MADS box gene family website::Jan T.  Kim::kim@mpiz-koeln.mpg.de
+http://www.bpfh.net/::Collected stories from BOFH newsgroups and home page of author::Simon Burr::webmaster@bpfh.net
+http://www.tardis.ed.ac.uk/~steve/::Private Homepages::Stephen Kitt::steve@tardis.ed.ac.uk
+http://wgtc.sanet.de::Private Homepages::dg::dg@sanet.de
+#UHN#http://www.venesign.com/::Company Home Page::Jose Chiantera::jchiantera@venesign.com
+http://www.eye-net.com.au/::Eye-Net Consulting::Craig Small::csmall@eye-net.com.au
+#CTO#http://www.student.informatik.tu-darmstadt.de:8080/~fischer/index.en.html::Private Homepages::T. Fischer::th.fischer@gmx.net
+http://www.hellfish.de/::Private Homepages::Mark Schütte::schuette@hellfish.de
+http://www.clasohm.com::Private Homepage::Carsten Clasohm::webmaster@clasohm.com
+#CTO#http://www.giram.org::The Giram 3D modeller homepage::David Odin::David.Odin@bigfoot.com::http://www.giram.org/wml/
+http://www.openldap.org/::OpenLDAP Project::info;::info@openldap.org
+http://bioinformatics.danforthcenter.org::Laboratory of Computational Genomics Webserver::Bartosz Ilkowski::barbi@danforthcenter.org
+#FNF#http://www.multimania.com/~ambondar/Noframe::Private Homepages speaking about role playing games (in french)::Jean-Luc Donnadieu::ambondar@multimania.com
+http://www.3ckp.com::Company Homepages::Michael Portz::Portz@3ckp.com
+http://www.mindspring.com/~eliaj/::WebDesk Development::John W.L.  Elia::eliaj@mindspring.com
+http://www.cs.uit.no/linux-irda/::Linux-IrDA Homepage::Dag Brattli::dagb@cs.uit.no
+http://phobos.fs.tum.de/acpi/::ACPI4Linux Project::Max Berger, Simon Richter::max.berger@phobos.fs.tum.de
+http://www.sdss.org/::Sloan Digital Sky Survey::::sdss-webmaster@www.sdss.org
+http://www.linux-france.org/article/appli/::Informations about Linux Applications (in French)::Stéphane Écolivet::Stef@linux-france.org::http://www.linux-france.org/article/appli/appli.wml
+http://www.cocemi.com.uy/amaldo/::AMECOM, Uruguayan Health Care Web Site::Lorenzo Maceiras::maceiras@adinet.com.uy
+http://www.caoz.de::LOMOs::Georg Friedrich::arch-vile@gmx.net
+http://www.boolean.net/::Net Boolean Incorporated::webmaster::webmaster@boolean.net
+http://www.ifsic.univ-rennes1.fr::IFSIC: Institut Superieur de Formation en Informatique et Communication (in french)::Pascal Aubry::aubry@ifsic.univ-rennes1.fr::http://www.ifsic.univ-rennes1.fr/a_propos/ifsic.wml
+#UHN#http://www.charsplat.net::Personal Pages and Course Website::Jeff Clement::jeff@charsplat.net
+http://www.informatik.uni-oldenburg.de/~pearl/::Private Homepages::Jens Finke::pearl@darkride.net
+#UHN#http://www.awdesigns.de/valentin/index.html::Private Homepages::Valentin v. Seggern::luisxiv@gmx.net::http://www.awdesigns.de/valentin/html/en/contents.en.html
+http://www.eecs.wsu.edu/~cs302/::Unix System Administration Course::Geoff Allen::geoff@wsu.edu
+http://www.globalyouthnetwork.org::Global Youth Network::Ward Vandewege::ward@penguinpowered.com
+http://realcosmo.hat.gelitten.org::Private Homepages (German)::Daniele Frijia::wml@gelitten.infra.de
+http://www.dermabcn.org/::Dermathology Web (Barcelona, Spain)::Rafael Cordones Marcos::rcm@bcnartdirecte.com
+http://move.to/chdv::Private Homepages::Dmitry Chmir::chdv@siat.ru::
+http://www.unet.univie.ac.at/~a9509663/::My University Homepage :)::Andreas Muenster::a9509663@unet.univie.ac.at::http://www.unet.univie.ac.at/~a9509663/
+#CNC#http://www.bsb-software.com::Site of BSB-Software GmbH, Frankfurt, Germany::Darko Krizic::dkrizic@bsb-software.com::
+http://www.stanford.edu/group/jujitsu/::Stanford Jujitsu Club::Ben Escoto::bescoto@stanford.edu
+http://www.informatik.uni-freiburg.de/~hofmeist/::Private Homepages::Andreas Hofmeister::hofmeist@informatik.uni-freiburg.de
+#FNF#http://www.cs.orst.edu/~avis::Private Homepages::Avis Ng::avis@excite.com
+http://www.geocities.co.jp/SiliconValley-PaloAlto/9803/::Private Homepages::Masayuki Hatta::masayuki-h@geocities.co.jp
+http://www.lklug.pdn.ac.lk/::Lanka Linux User Group::Web Development Team::wdt@lklug.pdn.ac.lk
+http://www.afn.org/~jam/::Private Homepage::James Moore::jam@afn.org::http://www.afn.org/~jam/software/about/
+http://www.koma.dyn.priv.at::KOMA - Conference of mathematic student representatives (in german)::Wolfgang Dautermann::dauti@oeh.tu-graz.ac.at::http://www.koma.dyn.priv.at/tmpl/template.wml
+#http://www.snafu.de/~wehe/index_li.html::Linux with Laptop Computers - LiLAC::Werner Heuser::wehe@snafu.de::http://www.snafu.de/~wehe/index_li.wml
+http://users.indigo.net.au/darke/::Private Homepages::Peter Crystal::darke@debian.org
+#CTO#http://www.alpin.it/::homepage of alpin management consulting::Christoph Moar::christoph.moar@alpin.it
+http://cip.uni-trier.de/cschmitz/::Private Homepages::Christoph Schmitz::cschmitz@stud.informatik.uni-trier.de::http://cip.uni-trier.de/cschmitz/wml.html
+http://welcome.to/pointlessfilms::Pointless Films movie club homepages::Stian Storengen Olsen::stiano@tihlde.org::
+http://www.blenderbuch.de/::German Blender Site (a 3D app.)::Carsten Wartmann::c.wartmann@gmx.net::http://www.blenderbuch.de/wmlsource.html
+http://alfie.ist.org/alfie/::Private Homepages::Gerfried Fuchs::alfie@innocent.com::http://alfie.ist.org/WML/
+http://ers.dhs.org/lugg/::Linux User Group Graz::Wolfgang Dautermann::dauti@oeh.tu-graz.ac.at
+http://www.ilf.com/::ILF Consulting Engineers::Johannes Schmid::schmid@it-xpert.com
+http://www.masstudio.com/::architecture workshop (italian language)::Tomaso Scarsi::tscarsi@katamail.com::http://www.masstudio.com/wml/
+http://www.neo.com::Private Homepages::Optimus::::
+http://mip.ch.to/::Linux Pixxx-Toolz & CD-Tausch::The M.I.P.::mip@xodox.org::
+#UHN#http://www.myfreeoffice.com/mlov/index.html::Business site::Marie Grady::ride_the_web@hotmail.com
+http://www.cg-snh.de/::Christliche Gemeinde Sinsheim Home Page::David Lowry::david.lowry@gmx.net::http://www.cg-snh.de/tmpl/template.wml
+http://www.dz.ee.ethz.ch/::Microelectronics Design Center of ETH Zurich::Andreas Wieland::wieli@ee.ethz.ch
+http://www.krabbelkiste.com/::Harburger Krabbelkiste e.V.::Helge Oldach::hmo@sep.hamburg.com
+http://www.linuxbrit.co.uk/::Personal page and Linux Tips area::Tom Gilbert::gilbertt@linuxbrit.co.uk
+http://lordbyte.infra.de::Private Homepages::LordByte::lordbyte@infra.de::
+http://fahrzeugtechnik.fh-joanneum.at/::Fachhochschul study course Automotive Engineering::Wolfgang Dautermann::wolfgang.dautermann@fh-joanneum.at::
+http://www.buerohaus-schmid.at::Bürohaus Ernst Schmid, Innsbruck::Reinhard Lehar::wm@buerohaus-schmid.at::
+http://www.stephanus-stiftung.de::Stiftung im Diakonischen Werk::Torsten Krueger::webmaster@stephanus-stiftung.de::
+http://www.rosenthal.hanse.de/::Private Homepages::Hermann Treu::ht@rosenthal.hanse.de::
+http://www.aspetersen.de/::A. & S. Petersen - English Communication for Professionals::Stephan Petersen::info@aspetersen.de::
+http://leetnux.sourceforge.net/::website of the Linux distribution "Leetnux"::Andreas Krennmair::japh@gmx.at::
+http://www.physique.usherb.ca/~bligneri/::Private Homepages::Benoit des Ligneris::bligneri@physique.usherb.ca::http://aubinlab1.physique.usherb.ca/cgi-bin/cvsweb.cgi/?logsort=date&hidecvsroot=1&sortby=file&hidenonreadable=1&f=h&hideattic=1&cvsroot=PagesWeb
+http://www.midwestcs.com/::Misc free software::Wayne Schlitt::wayne@midwestcs.com::http://www.midwestcs.com/wml.html
+http://silver.fureai.or.jp/wml/::The information site of WML by Japanese.::Wakai Kazunao::silver@lacmhacarh.gr.jp::
+http://www.olvc.ab.ca/::Our Lady of Victory Camp Home Page::Anthony Fok::webmaster@olvc.ab.ca::http://www.olvc.ab.ca/tmpl/
+http://www.agm-ita.ensta.fr/::L'association des anciens élèves de l'ENSTA::Marc Baudoin::babafou@agm-ita.ensta.fr::
+#CTO#http://www.kompf.de/::kompf.de - C++, Java, Fondskurse, Fotos, Zitate::Martin Kompf::martin@kompf.de::http://www.kompf.de/com/tmpl/
+http://freddy77.tripod.com::Private Homepages::Frediano Ziglio::freddy77@angelfire.com::
+#CTO#http://www.huckstep.uklinux.net/mle/::My Linux Experience - GNU/Linux tips::Tom Huckstep::tomhuckstep@bigfoot.com::http://www.huckstep.uklinux.net/mle/formats.html
+http://www.usenet.at::The usenet hierarchy at.*::Wolfgang Dautermann::dauti@oeh.tu-graz.ac.at::
+http://rvissers.de/::Private Homepages::Ralf Vissers::ravis@web.de::http://rvissers.de/ravis-wml.tar.bz2
+http://www.webhome.de/anti/::Private Homepage::Anti::anti@webhome.de::
+http://www.tomk32.de::TomK32's private pages::TomK32::tomk32@tomk32.de
+http://www.tstrathmann.de::Private Homepages::Thomas Strathmann::Thomas.Strathmann@t-online.de::
+#CTO#http://oldenburg.linux.de::Linux User Group Oldenburg::Martin Schulze / Christian Weerts::webmaster@oldenburg.linux.de::
+#CTO#http://channel.debian.de::#Debian on IRCnet::Peter Palfrader
+http://www.infodrom.org::Infodrom Oldenburg::Martin Schulze
+http://www.circus-gastspiele.de::Circus-Routes::Michael Uhlemann
+http://www.ffis.de::ffis e.V.::Michael Uhlemann / Martin Schulze
+http://www.tstrathmann.de::Private Homepages::Thomas Strathmann::thomas@tstrathmann.de::
+http://www.nufarm.fr::CFPI Nufarm France corporate site::Jean-Michel Sauvage::contact@jean-michel-sauvage.net
+http://www.bigw.org/~lanalan/::lanalan's portfolio::Lana Lan::lanalan@bigw.org::
+http://www.waldmannshausen.de::Schullandheim Burg Waldmannshausen e.V.::Bela Kovac::webmaster@waldmannshausen.de::http://www.waldmannshausen.de/wml/
+http://www.anakinskywalker.de/::My virtual Home :)::Philipp Maihöfer::housemeister@anakinskywalker.de::
+http://www.mlp-consulting.com.au::MLP Company Pages::Mark Pfeiffer::markpf@mlp-consulting.com.au::http://mlp-consulting.com.au/wml.html
+http://fsinfo.cs.uni-sb.de/::Fachschaftsrat Informatik an der Univerität der Saarlandes::Axel Beckert::fsinfo@fsinfo.cs.uni-sb.de::http://fsinfo.cs.uni-sb.de/wml-templates/
+http://www.collegium.ethz.ch::Collegium Helveticum of ETH Zurich::Tobias Oetiker::oetiker@ee.ethz.ch::http://www.collegium.ethz.ch/.wml/
+http://www.flugplatzmuenster.ch::Airfield Muenster (Switzerland)::Fritz Zaucker::zaucker@ee.ethz.ch::http://www.flugplatzmuenster.ch/.wml/
+http://mobilix.org::Resources for UniX (BSD, Linux, Solaris, ..) on mobile computers.::Werner Heuser::wehe@mobilix.org::
+http://xtops.de::Pre-installed Linux on laptops and PDAs::Werner Heuser::wehe@xtops.de::
+http://www.krid.de::Private Homepage::Dirk Bernhardt::webmaster@krid.de::
+http://dataconv.org::A survey of data conversion tools (databases,mail,HTML,..)::Werner Heuser::wehe@mobilix.org::
+http://www.novas.org::Company Pages::Sebastian Brosig::Sebastian.Brosig@novas.org::http://www.novas.org/about.html
+http://www.manual-translation-project.org::Translation of different Manuals::Karl Heinz Marbaise::khmabaise@gmx.de::
+http://bigsister.graeff.com/::The Big Sister system and network monitor project::Thomas Aeby::aeby@graeff.com::http://bigsister.graeff.com/include/
+http://comnet.technion.ac.il/~cn1w02/::The IP-Noise Simulator Project's homepage::Shlomi Fish::shlomif@vipe.technion.ac.il::http://cvs.berlios.de/cgi-bin/cvsweb.cgi/site/wml/?cvsroot=ip-noise
+http://vipe.technion.ac.il/~shlomif/lecture/W2L/Basic_Use/slides/::The Haifa Linux Club's "Welcome to Linux" Basic Use Lecture slides::Shlomi Fish::shlomif@vipe.technion.ac.il
+http://www.radio-active.net.au/index2.html::Radioactive Networks::Darryl Smith::Darryl@radio-active.net.au::http://www.radio-active.net.au/com/
+http://christiangg.eresmas.com::Private Homepages::Christian García::christiangg@eresmas.com::http://christiangg.eresmas.com/pagina.html
+http://www.minus1.de/::Personal Homepage::Konrad Anton::webmaster@minus1.de::
+http://www.spagati-spontane.de/::An improvisation theatre group in Freiburg, Germany::Konrad Anton::webmaster@spagati-spontane.de::
+http://www.apsfilter.org::The Apsfilter Project::Andreas Klemm::andreas@apsfilter.org::http://www.apsfilter.org/wml.html
+http://www.wossname.org.uk/~mathie/::Homepage::Graeme Mathieson::mathie+webpage@wossname.org.uk::
+http://www.linux2000.com::Miscellaneous Linux "Stuff" - Constant "Work In Progress" :-)::Phil Edwards::webmaster@linux2000.com::
+http://www.shlomifish.org/::Shlomi Fish' Homepage::Shlomi Fish::shlomif@iglu.org.il::http://stalker.iguide.co.il:8080/svn/shlomif-homepage/homepage/trunk/
+http://better-scm.berlios.de/::Better SCM Site::Shlomi Fish::shlomif@iglu.org.il::http://opensvn.csie.org/betterscm/better-scm-site/trunk/

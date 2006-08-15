@@ -1,0 +1,18 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Core / WML">
+
+#include 'docs/frontend/docimport.inc'
+#include "VERSION"
+
+<p>
+#include "docs/SNB" area=frontend subarea
+
+{: [[s|\@WML_VERSION\@|<get-var VERSION> (<get-var DATE>)|]]
+[[s|&lt;(/?STRONG)&gt;|<$1>|g]]
+[[s|\&amp;lt;|\&lt;|g]]
+[[s|\&amp;gt;|\&gt;|g]]
+[[s|\&amp;amp;|\&amp;|g]]
+<docimport src="docs/frontend/wml.pod">
+:}
+

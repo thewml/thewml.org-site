@@ -1,0 +1,19 @@
+#!wml -E ./postpod -o %BASE.html
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / iSelect">
+
+#use wml::imp::generic
+#depends 'docs/aux/wml_aux_iselect.pod'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+{: [[s|(wml_p.+?)\(([1-7])\)|<a href="$1.html">$1</a>($2)|g]]
+[[s|\[:OKEY\]|__OKEY__|g]]
+[[s|\&amp;lt;|\&lt;|g]]
+[[s|\&amp;gt;|\&gt;|g]]
+[[s|\&amp;amp;|\&amp;|g]]
+<import src="docs/aux/wml_aux_iselect.pod">
+:}
+

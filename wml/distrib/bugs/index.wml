@@ -1,0 +1,17 @@
+#!wml -odistrib/bugs/index.phtml
+
+#use wml::tmpl::swpage area=distrib subarea
+<page_title name="Known bugs">
+
+#use wml::misc::distrib
+
+#include "SNB" area=bugs
+
+<p>There are no known bugs in the latest release.</p>
+
+#<p>
+#Here you can find patches to fix known bugs in the latest distribution.
+#
+#<p>
+#<filelist *.patch>
+#

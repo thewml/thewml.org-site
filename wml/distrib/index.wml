@@ -1,0 +1,24 @@
+#!wml -o ALL-CURRENT:distrib/index.phtml -o CURRENT:distrib/index.current
+
+#use wml::tmpl::swpage area=distrib
+<page_title name="Distribution">
+
+#use wml::misc::distrib
+
+#include "distrib/SNB" area=tarballs
+
+<p>
+Here you can grab the tarballs of complete distributions containing major
+releases. Not all interim releases are archived, only the initial release of a
+revision (patchlevel 0) and the latest release on this revision (highest
+patchlevel) are kept. For all other releases first grab a tarball and then
+apply one or more of the patch files.
+</p>
+
+#include "VERSION"
+
+[CURRENT:wml-<get-var VERSION>.tar.gz
+:]
+<filelist *.tar.gz />
+
+<ftpareas />

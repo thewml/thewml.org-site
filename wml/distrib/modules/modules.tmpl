@@ -1,0 +1,80 @@
+
+#use wml::des::imgdot
+
+<protect pass=2>
+<:
+my ($description);
+
+open(FP, "< ../latest/wml_frontend/wmd.txt");
+while (<FP>) {
+   s|\s*\n$||;
+   if (m|Includes: (.*) \((.*)\)|) {
+       $description->{'cat'}->{$2} = $1;
+   }
+   if (m|^wml::([^(]*)::([^(]*)\(3\).*<s> (.*)$|) {
+       $description->{$1}->{$2} = $3;
+   }
+}
+close(FP);
+
+sub link_global_file {
+    my ($cat) = @_;
+    my ($f);
+    foreach $f (glob("wml-" . $cat . "-[0-9]*")) {
+        print "<a href=\"$f\">$f</a>";
+    }
+}
+:>
+</protect>
+
+<define-tag show:module>
+<:
+sub link_module {
+    my ($cat) = @_;
+    my ($f, $name, $date);
+    foreach $f (glob("wml-" . $cat . "-[a-zA-Z]*")) {
+		if ('%1' ne '') {
+			if (! %1 $f) {
+				next;
+			}
+		}
+            ($name, $date) = ($f =~ m|^wml-[^-]*-([^-]*)-(.*)\.tar\.gz$|);
+            printf "<"."a href=\"%s\">%-26s  %s\n", $f,
+               "wml::${cat}::${name}</a>", $description->{$cat}->{$name};
+    }
+}
+:>
+
+<tr valign=top bgcolor="#9999cc">
+<td><font color="#ffffff"><b><:= $description->{'cat'}->{'%0'} :></b></font></td>
+</tr>
+<tr valign=top>
+<td width=300 valign=top><b>All modules from this category :</b>
+<hspace 30><: &link_global_file('%0'); :></td>
+</tr>
+<tr valign=top>
+<td width=300 valign=top><b>Standalone modules :</b>
+<pre>
+<b>  Name                    Description</b>
+<b>______________________  ______________________________</b>
+<: &link_module('%0') :>
+</pre>
+</td>
+</tr>
+</define-tag>
+
+<define-tag modulelist>
+<table bgcolor="#666633" cellspacing=0 cellpadding=0>
+<tr><td>
+<table bgcolor="#ccccff" cellspacing=0 cellpadding=5>
+<show:module des>
+<show:module fmt>
+<show:module imp>
+<show:module mod>
+<show:module std>
+<show:module sup>
+<show:module sys>
+</table></td>
+</tr>
+</table>
+</define-tag>

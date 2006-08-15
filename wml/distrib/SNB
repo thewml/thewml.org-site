@@ -1,0 +1,13 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=tarballs txt="Tarballs" url="$(ROOT)/distrib/index.phtml">
+<snb_button id=patches  txt="Patches"  url="$(ROOT)/distrib/patches.phtml">
+<snb_button id=unpacked txt="Unpacked" url="$(ROOT)/distrib/unpacked.phtml">
+<snb_button id=binaries txt="Binaries" url="$(ROOT)/distrib/binary.html">
+<snb_button id=bugs txt="Bugs" url="$(ROOT)/distrib/bugs/index.phtml">
+<snb_button id=wml-mod txt="WML Modules" url="$(ROOT)/distrib/modules/">
+#<snb_button id=user-mod txt="User Modules" url="$(ROOT)/distrib/modules/user.html">
+</snb>
+

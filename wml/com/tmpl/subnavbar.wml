@@ -1,0 +1,17 @@
+
+<define-tag snb endtag="required">
+<table class="snb">
+<tr>
+%body
+</tr>
+</table>
+</define-tag>
+
+<define-tag snb_button>
+<preserve id txt url />
+<set-var %attributes />
+<td>
+<a href="<get-var url />"><get-var txt /></a>
+</td>
+<restore id txt url />
+</define-tag>

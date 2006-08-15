@@ -1,0 +1,15 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Tags">
+
+#include 'docs/docs/myimport.inc'
+#depends 'docs/docs/wml_tags.pod'
+
+<p>
+#include "docs/SNB" area=intro subarea
+
+<protect pass=5>
+#    Protect against pod2html bugs
+<myimport src="docs/docs/wml_tags.pod">
+</protect>
+

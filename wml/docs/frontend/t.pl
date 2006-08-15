@@ -1,0 +1,1 @@
+s!docs/frontend/VERSION!VERSION!

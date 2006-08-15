@@ -1,0 +1,13 @@
+
+#use wml::tmpl::swpage area=news
+<page_title name="News">
+
+#include "news/SNB" area=develop
+
+<h2>Development State</h2>
+<ul>
+<li>Next proposed version: 2.0.10</li>
+<li>Date-Range of next proposed version: 01-Nov-2002/30-Nov-2002</li>
+<li>The current <a href="../distrib/wml-SNAP/">Snapshot Source Tree</a>.</li>
+</ul>
+

@@ -1,0 +1,38 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation">
+
+#use wml::std::href
+#use wml::des::typography
+
+#include "docs/SNB" area=backend
+
+<h2>Backends</h2>
+
+<p>
+These programs provide the core functionality of WML which is always present
+(and only can be reduced via option WML <tt>-p</tt> under runtime).  They are
+used in the given sequential pass order.
+</p>
+
+<ul>
+<li><href name="<b>wml_p1_ipp</b>" url="backend/wml_p1_ipp.html"><br />
+     Pass1: Include Preprocessor</li>
+<li><href name="<b>wml_p2_mp4h</b>" url="backend/wml_p2_mp4h.html"><br />
+     Pass2: Macro Processor for HTML Documents</li>
+<li><href name="<b>wml_p3_eperl</b>" url="backend/wml_p3_eperl.html"><br />
+     Pass3: Embedded Perl 5 Language</li>
+<li><href name="<b>wml_p4_gm4</b>" url="backend/wml_p4_gm4.html"><br />
+     Pass4: GNU M4</li>
+<li><href name="<b>wml_p5_divert</b>" url="backend/wml_p5_divert.html"><br /> 
+     Pass5: Divert</li>
+<li><href name="<b>wml_p6_asubst</b>" url="backend/wml_p6_asubst.html"><br />
+     Pass6: Area Subst </li>
+<li><href name="<b>wml_p7_htmlfix</b>" url="backend/wml_p7_htmlfix.html"><br />
+     Pass7: HTML Fix </li>
+<li><href name="<b>wml_p8_htmlstrip</b>" url="backend/wml_p8_htmlstrip.html"><br />
+     Pass8: HTML Strip </li>
+<li><href name="<b>wml_p9_slice</b>" url="backend/wml_p9_slice.html"><br />
+     Pass9: Slice </li>
+</ul>
+

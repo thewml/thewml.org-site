@@ -1,0 +1,17 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Introduction">
+
+#include 'docs/docs/myimport.inc'
+#depends 'wml_intro.pod'
+
+<p>
+#include "SNB" area=intro subarea
+
+#    Protect against pod2html bugs
+{: [[s|\&amp;lt;|\&lt;|g]]
+   [[s|\&amp;gt;|\&gt;|g]]
+   [[s|\&amp;amp;|\&amp;|g]]
+<myimport src="wml_intro.pod">
+:}
+

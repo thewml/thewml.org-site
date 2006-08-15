@@ -1,0 +1,32 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / JavaScript">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=js
+
+<p>
+<zwue>JavaScript</zwue>
+
+These are references to JavaScript, Netscape's client-side scripting language.
+Current version is 1.2, supported in Netscape Communicator 4.0. The previous
+version 1.1 is supported in Netscape Communicator 3.0 and Internet Explorer 4.
+JavaScript code snippets can be easily included into pages by using WML's
+<tt>&lt;javascript&gt;</tt> container tag from wml::std::tags.
+
+<ul>
+  <item name="JavaScript: Netscape Doc Index"
+        url="http://developer.netscape.com/library/documentation/javascript.html">
+  <item name="JavaScript Guide"
+        url="http://developer.netscape.com/library/documentation/communicator/jsguide4/index.htm">
+  <item name="JavaScript Reference" aio
+        url="http://developer.netscape.com/library/documentation/communicator/jsref/index.htm">
+  <item name="de.comp.lang.javascript FAQ"
+        url="http://www.informatik.uni-dortmund.de/~sm/aw/js/de.comp.lang.javascript/">
+  <item name="Doc JavaScript"
+        url="http://www.webreference.com/js/">
+</ul>
+

@@ -1,0 +1,12 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / HTML Tidy">
+
+#use wml::imp::generic
+#depends 'docs/aux/wml_aux_tidy.txt'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+<import src="docs/aux/wml_aux_tidy.txt">
+

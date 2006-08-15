@@ -1,0 +1,24 @@
+#!wml -onews.phtml
+
+#use wml::tmpl::swpage area=news subarea
+
+<page_title name="Website META Language / News">
+
+#include "news/SNB" area=news
+
+<h2>News</h2>
+
+<pre>
+<?
+open(FP, "<../distrib/wml-SNAP/NEWS");
+while (<FP>) {
+    s|&|&amp\;|g; # escape with useless backslash
+    s|<|&lt\;|g;
+    s|>|&gt\;|g;
+    s|(Major changes between.+:)|<b>$1</b>|g;
+    print $_;
+}
+close(FP);
+!>
+</pre>
+

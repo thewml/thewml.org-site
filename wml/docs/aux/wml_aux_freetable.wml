@@ -1,0 +1,17 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Auxiliaries / freetable">
+
+#use wml::imp::generic
+#depends 'docs/aux/wml_aux_freetable.pod'
+
+<p>
+#include "docs/SNB" area=aux subarea
+
+{:
+[[s|\&amp;lt;|\&lt;|g]]
+[[s|\&amp;gt;|\&gt;|g]]
+[[s|\&amp;amp;|\&amp;|g]]
+<import src="docs/aux/wml_aux_freetable.pod" format="pod">
+:}
+

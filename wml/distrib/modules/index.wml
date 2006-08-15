@@ -1,0 +1,16 @@
+#!wml -odistrib/modules/index.html
+
+#use wml::tmpl::swpage area=distrib subarea
+<page_title name="WML Modules">
+
+#include "distrib/modules/modules.tmpl"
+
+#include "distrib/SNB" area=wml-mod
+
+<p>
+Here you can find the modules shipped with WML in small pieces. Get those
+files if you do not want to get all the source files.
+</p>
+
+<modulelist />
+

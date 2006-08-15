@@ -1,0 +1,196 @@
+##
+##  swpage.wml -- Standard Page Template for www.engelschall.com/sw
+##  Copyright (c) 1997 Ralf S. Engelschall, All Rights Reserved. 
+##
+
+
+##
+##  include stuff from WML library
+##
+
+#use wml::std::tags
+# #use wml::std::page
+#use wml::std::info
+#use wml::std::href
+#use wml::des::space
+#use wml::des::gfont
+#use wml::des::rollover
+#use wml::des::navbar
+
+<:{
+use MyNavData;
+use HTML::Widgets::NavMenu;
+use CGI;
+
+my $filename = "$(FILENAME)";
+$filename =~ s!index\.html$!!;
+$filename = "/$filename";
+
+use vars qw($nav_bar);
+
+$nav_bar = HTML::Widgets::NavMenu->new(
+    'path_info' => $filename,
+    'current_host' => "$(SERVER)",
+    MyNavData::get_params(),
+    'ul_classes' => [ "navbarmain", "navbarnested", "navbarnestnest" ],
+    );
+
+my $rendered_results = $nav_bar->render();
+
+use vars qw($nav_links);
+
+$nav_links = $rendered_results->{nav_links};
+
+use vars qw($nav_html);
+
+$nav_html = $rendered_results->{html};
+
+my $leading_path = $rendered_results->{leading_path};
+
+my $render_leading_path_component = sub {
+    my $component = shift;
+    my $title = $component->title();
+    my $title_attr = defined($title) ? " title=\"$title\"" : "";
+    return "<a href=\"" . CGI::escapeHTML($component->direct_url()) .
+        "\"$title_attr>" .
+        $component->label() . "</a>";
+};
+
+use vars qw($leading_path_string);
+
+$leading_path_string =
+    join(" &rarr; ",
+        (map
+        { $render_leading_path_component->($_) }
+        @$leading_path
+        ));
+
+}:>
+
+
+##
+##  create the page skeleton
+##
+
+#   generate the standard HTML page skeleton
+[PAGE_HEAD:\
+;;; <page 
+;;;       vlink="#6060a0" 
+;;;        link="#6060c0" 
+;;;       alink="#6060f0"
+;;;     bgcolor="#ffffff" 
+;;;  background="$(COM)/bg/bg.gif" 
+;;;       title="$(PACKAGE_NAME) ($(PACKAGE_SCUT)), {#PAGE_TITLE#}"
+;;; >
+<:{
+if ("$(PHTML)")
+{
+	print <<'EOF';
+<? print "<" . "?" . "xml version=\"1.0\" encoding=\"utf-8\"" .
+	"?" . ">" . "\n";
+!>
+EOF
+}
+else
+{
+	print qq{<?xml version="1.0" encoding="utf-8"?>\n};
+}
+}:>
+<!DOCTYPE
+    html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+<title>$(PACKAGE_NAME) ($(PACKAGE_SCUT)), {#PAGE_TITLE#}</title>
+<link rel="stylesheet" href="$(ROOT)/style.css" type="text/css" media="screen, projection" title="Normal" />
+<info style=meta copyright="1996-2001 Engelschall, Germany.">
+{#PAGE_HEAD#}
+</head>
+<body>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+  <td class="navbar" align="left" valign="top">
+    <a href="http://swpat.ffii.org/" 
+       title="Stop Software Patents!"><img 
+       src="$(COM)/navbar/no-e-patents.png" alt="Stop Software Patents!"
+    /></a><br />
+
+    <img src="$(COM)/navbar/button-n-sw.gif" alt="Free Software" /><br />
+    <img src="$(COM)/navbar/button-i-$(PACKAGE_ID).gif" alt="WML" /><br /> 
+<:{ print join("\n", @$nav_html); }:>
+  </td>
+
+  <td class="main" valign="top">
+    <table cellspacing="0" cellpadding="0" width="550">
+    <tr>
+      <td valign="top">
+        <: $sc = "$(area)";
+           if ($sc ne "title") {
+               print '<'."img src=\"$(COM)/navbar/headline-$sc.gif\"";
+               print "     alt=\"{#PAGE_TITLE#}\" /><br />\n";
+            }
+        :>
+        <!-- BEGIN OF ACTUAL PAGE CONTENTS -->
+        :PAGE_HEAD]
+        [PAGE_BODY:
+        {#PAGE_BODY#}
+        :PAGE_BODY]
+        [PAGE_FOOT:
+        <!-- END OF ACTUAL PAGE CONTENTS -->
+      </td>
+    </tr>
+    </table>
+  </td>
+</tr>
+</table>
+</body>
+</html>
+{#PAGE_PRELOADS#}
+:PAGE_FOOT]
+
+##
+##  fill the skeleton with the default contents
+##
+
+{#!PAGE_TITLE!#:
+Unknown Page
+:#PAGE_TITLE#}
+
+##
+##  setup commands to fill the skeleton
+##
+
+#   fill PAGE_TITLE
+<define-tag page_title>
+<preserve name>
+<set-var %attributes>
+{#PAGE_TITLE#:<get-var name>:#PAGE_TITLE#}
+<restore name>
+</define-tag>
+
+#   fill PAGE_PRELOADS
+<define-tag page_preloads endtag=required>
+{#PAGE_PRELOADS#:%body:#PAGE_PRELOADS#}
+</define-tag>
+
+#   create SSI footer
+<define-tag ssi_footer>
+<div class="copyright">
+<hr />
+<p>
+Copyright &copy; 1996-2001
+<a href="http://www.engelschall.com/">Ralf S. Engelschall</a>,
+<a href="mailto:rse@engelschall.com"><tt>rse@engelschall.com</tt></a><br />
+Maintained by <a href="mailto:barbier@engelschall.com">Denis Barbier, <tt>barbier@engelschall.com</tt></a><br />
+#Accessed <!--#echo var="URL_COUNT"--> times 
+#   since <!--#echo var="URL_COUNT_RESET"--><br>
+#URL: <!--#echo var="SCRIPT_URI"--><br>
+</p>
+</div>
+</define-tag>
+
+##
+##  finally enter the body
+##
+
+{#PAGE_BODY#:

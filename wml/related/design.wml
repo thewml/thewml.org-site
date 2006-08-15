@@ -1,0 +1,27 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / Design">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=design
+
+<p>
+<zwue>Webdesign</zwue>
+
+These are references to good resources concerning Webdesign in general.
+
+<ul>
+    <item name="Dimitry's Design Lab" aio
+          url="http://webreference.com/dlab/">
+    <item name="David Siegel Webdesigner Tips" aio
+	      url="http://www.dsiegel.com/tips/">
+    <item name="Top 10 Tips for Webdesigners" aio
+	      url="http://www.design.ru/ttt/">
+    <item name="Web Techniques (WT)"
+          url="http://www.webtechniques.com/">
+    <item name="Webschrift"
+          url="http://www.suxess.com/suxess/webschrift/index.html">
+</ul>

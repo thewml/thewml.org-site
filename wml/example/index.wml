@@ -1,0 +1,41 @@
+
+#use wml::tmpl::swpage area=example
+<page_title name="Examples">
+
+#use wml::std::href
+#use wml::des::typography
+#use wml::std::box
+
+#include "example/SNB" area=jumpstart
+
+<h2>JumpStart: All-In-One Example</h2>
+
+<p>
+This example shows most of the typical features of WML in just
+<i>a single input file</i>:
+</p>
+
+<ol>
+<li><b class="smallcaps">Source:</b><br />
+The WML source file...
+<br />
+<a href="source.cgi?sample/demo.wml">demo.wml</a>
+</li>
+<li>
+<b class="smallcaps">Generation Process:</b><br />
+is translated via a simple `wmk' call...<br />
+<div class="box">
+<tt>$ wmk -f demo.wml<br />
+wml -n '-o(ALL-LANG_*)+LANG_EN:demo.en.html' '-o(ALL-LANG_*)+LANG_DE:demo.de.html' demo.wml<br />
+$ _<br />
+</tt>
+</div>
+</li>
+<li><b class="smallcaps">Output:</b><br />
+..into the following two output files.
+<br />
+a) <a href="sample/demo.en.html">demo.en.html</a> [<a href="source.cgi?sample/demo.en.html">Source</a>]<br />
+b) <a href="sample/demo.de.html">demo.de.html</a> [<a href="source.cgi?sample/demo.de.html">Source</a>]<br />
+</li>
+</ol>
+

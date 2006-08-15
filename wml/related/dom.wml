@@ -1,0 +1,36 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / DOM">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=dom
+
+<p>
+<zwue>Document Object Model (DOM)</zwue>
+
+The Document Object Model is the W3C standard for mapping HTML elements into
+document objects. The browsers currently provide JavaScript and CSS interfaces
+to these objects (which leads to Dynamic HTML). But the Netscape Communicator
+4 and Internet Explorer 4 have implemented slightly different object models.
+Be careful here.
+
+<ul>
+	<item name="Document Object Model: W3C Home"
+	      url="http://www.w3.org/DOM/">
+	<item name="Document Object Model: Level 1 Specification (W3C REC 01-Dec-1998)"
+		  url="http://www.w3.org/TR/REC-DOM-Level-1/">
+	<item name="JavaScript Object Hierarchy and Inheritance"
+	      url="http://developer.netscape.com/library/documentation/communicator/jsobj/index.htm">
+	<item name="Dynamic HTML in Netscape Communicator 4"
+	      url="http://developer.netscape.com/library/documentation/communicator/dynhtml/index.htm">
+	<item name="Positioning HTML Elements with CSS and JavaScript 1.2"
+	      url="http://developer.netscape.com/library/technote/index.html?content=dhtml/css/css.htm">
+	<item name="WebReference's Dynamic HTML Lab" aio
+	      url="http://www.webreference.com/dhtml/">
+    <item name="WebCoder, the Dynamic HTML and JavaScript Resource"
+          url="http://www.webcoder.com/">
+</ul>
+

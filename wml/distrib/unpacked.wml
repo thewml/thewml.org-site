@@ -1,0 +1,17 @@
+#!wml -odistrib/unpacked.phtml
+
+#use wml::tmpl::swpage area=distrib subarea
+<page_title name="Distribution">
+
+#use wml::misc::distrib
+
+#include "distrib/SNB" area=unpacked
+
+<p>
+Here you can find the unpacked source tree of both the latest distribution and
+the development snapshot.  Use this resource when you want to grab a
+particular file, especially from the snapshot tree.
+</p>
+
+<filelist wml-* -d>
+

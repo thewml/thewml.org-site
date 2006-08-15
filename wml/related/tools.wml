@@ -1,0 +1,55 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / Tools">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=tools
+
+<p>
+<zwue>Authoring Tools</zwue>
+
+The following is a list of tools which can help
+authoring webpages.
+
+<ul>
+<item name="Website META Language (Ralf S. Engelschall)" aio
+      url="http://www.engelschall.com/sw/wml/">
+<item name="Webdesign Magnifying Glass (Ralf S. Engelschall)"
+      url="http://www.engelschall.com/sw/wml/wmg/">
+<item name="Page Explorer (Ralf S. Engelschall) (obsolete)"
+      url="http://www.engelschall.com/sw/wml/pe/">
+<item name="gFONT (Ralf S. Engelschall)"
+      url="http://www.engelschall.com/sw/gfont/">
+<item name="ePerl (Ralf S. Engelschall)"
+      url="http://www.engelschall.com/sw/eperl/">
+<item name="Slice (Ralf S. Engelschall)"
+      url="http://www.engelschall.com/sw/slice/">
+<item name="Mp4h (Denis Barbier)"
+      url="http://www.engelschall.com/sw/mp4h/">
+<item name="Meta-HTML (Brian J. Fox)"
+      url="http://www.metahtml.com/">
+<item name="HTMLpp (Nicolas Thiery)"
+      url="http://www.eleves.ens.fr:8080/home/nthiery/htmlpp/index.html.en">
+<item name="CHPP (Mark Probst)"
+      url="http://chakotay.ml.org/chpp/">
+<item name="HSC (Thomas Aglassinger)"
+      url="http://www.giga.or.at/~agi/hsc/">
+<item name="FunnelWeb (Ross Williams)"
+      url="http://www.ross.net/funnelweb/">
+<item name="MuLaW (Dirk Hillbrecht)"
+      url="http://www-c.informatik.uni-hannover.de/~dh/mulaw">
+<item name="Heitml (Helmut Emmelmann)"
+      url="http://www.heitml.com/">
+<item name="HTML-Script"
+      url="http://www.htmlscript.com/">
+<item name="MTX"
+      url="http://www.med.ufl.edu/medinfo/mtx/">
+<item name="GTML"
+      url="http://www.firststep.com.au/software/gtml.html">
+<item name="WPP"
+      url="http://www.geocities.com/Tokyo/1474/wpp.html">
+</ul>
+

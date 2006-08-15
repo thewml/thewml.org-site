@@ -1,0 +1,74 @@
+
+#use wml::tmpl::swpage area=example subarea
+<page_title name="The WML Webarea Itself">
+
+#use wml::std::href
+#use wml::des::space
+#use wml::des::typography
+#use wml::std::box
+
+#include "example/SNB" area=myself
+
+<h2>The WML Webarea Itself</h2>
+
+<p>
+Here we present all ingredients of a webarea from real-life just for your
+study: All(!) WML-related source files of WML's <i>own</i> webarea (the one
+you are currently surfing on). Just poke around in these files and try to
+understand how the author of WML uses his program to create the various pages
+in a both consistent and simple way. <i>Learn WML by looking in depth at these
+real-life examples !</i>.
+</p>
+
+<p>
+Now comes the complete list of all essential source files under <href
+url="http://www.engelschall.com/sw/"> which together form the HTML part of the
+<href url="http://www.engelschall.com/sw/wml/"> webarea (the graphics are the
+other part, but their origin is Adobe Photoshop and not WML ;_).  A last hint:
+The best way to understand this webarea is to first look at the red-marked
+files, especially the <a
+href="../../com-2.0/tmpl/swpage.wml"><b>com-2.0/tmpl/swpage.wml</b></a> file which is
+the main template for all pages. 
+</p>
+
+<div class="box file_list">
+<pre>
+<:
+    @MARK = qw(.wmlrc
+               com-2.0/tmpl/swpage.wml
+               com-2.0/tmpl/subnavbar.wml
+               wml/.wmlrc
+               wml/index.wml
+               wml/about/.wmlrc
+               wml/about/SNB
+               wml/about/index.wml
+               wml/about/class.wml
+               );
+	@FILES = ();
+    $base_dir=".";
+    push(@FILES, `cd $base_dir; find . -depth -type f -name "*.wml" -print`);
+    push(@FILES, `cd $base_dir; find . -depth -type f -name ".wmlrc" -print`);
+    push(@FILES, `cd $base_dir; find . -depth -type f -name ".wmkrc" -print`);
+    push(@FILES, `cd $base_dir; find . -depth -type f -name "SNB" -print`);
+	@FILES = sort(@FILES);
+	unshift(@FILES, ".wmlrc");
+    foreach $file (@FILES) {
+        $file =~ s|\n$||;
+		$file =~ s|^\./||;
+        $mark = 0;
+        foreach $m (@MARK) {
+            if ($file eq $m) {
+                $mark = 1;
+                last;
+            }
+        }
+        if ($mark) {
+            print "  <"."a href=\"../$file\" class=\"marked\">$file</a>\n";
+        }
+        else {
+            print "  <"."a href=\"../$file\" class=\"regular\">$file</a>\n";
+        }
+    }
+:>
+</pre>
+</div>

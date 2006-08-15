@@ -1,0 +1,239 @@
+.navbarmain
+{
+        margin-top:0;
+        margin-left:2px;
+	padding-top: 0em;
+	padding-left: 0em;
+}
+.navbarmain li
+{
+	display: block;
+	font-size: 130%;	
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-top: solid 1.5pt #9999FF;
+	border-left: solid 1.5pt #9999FF;
+	border-bottom: solid 2pt black;
+	border-right: solid 2pt black;
+	margin-bottom: 1.5pt;
+        width:100px;
+}
+
+.navbarmain a
+{
+	text-decoration: none;
+}
+.navbarmain a, .navbarmain b
+{
+	display: block;
+}
+/* This is to avoid the one line spacing between the nav-menu entry and
+the sub-entry. */
+.navbarmain br
+{
+        display: none;
+}
+.navbarmain a, .navbarmain b
+{
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+.navbarmain a, .navbarmain b
+{
+	padding-left: 3pt;
+}
+.navbarmain a:hover, .navbarmain b
+{
+        background-color: #9999CC;
+}
+.navbarmain a
+{
+	color: white;
+	background-color: #666699;
+}
+.navbarnested
+{
+margin:0;
+padding:0;
+}
+.navbarnested li
+{
+   display:block;
+   font-size:70%;
+   border: none;   
+   margin-left: 0;
+   padding-left 0;
+}
+.navbarnested li a, .navbarnested li b
+{
+  padding-left: 10pt;
+}
+.navbarnestnest
+{
+	padding-left:0;
+	margin-left:0;
+}
+.navbarnestnest li
+{
+	font-size: 80%;
+}
+.navbarnestnest li a, .navbarnestnest li b
+{
+	padding-left: 20pt;
+}
+.navbar
+{
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #666699;
+}
+.main
+{
+	padding-left: 1em;
+}
+.sf
+{
+	font-size: 120%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.link
+{
+	color: #ddddff;
+}
+.title
+{
+	font-size: 120%;
+}
+.news
+{
+	font-family: Arial,Helvetica, sans-serif;
+	color: #ccccff;
+}
+.tarball
+{
+	color: #339933;
+}
+.unstable
+{
+	color: #cc9933;
+}
+.snapshot
+{
+	color: #cc3333;
+}
+.binary
+{
+	color: #666699;
+}
+.news_block
+{
+	background-color: #666699;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.copyright
+{
+	color: #c0c0c0;
+	font-size: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.copyright hr
+{
+	width: 20%;
+}
+.copyright a
+{
+	color: #c0c0c0;
+}
+.snb
+{
+	background-color: #666699;
+	margin-left:1em;
+}
+.snb a
+{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.snb td
+{
+	padding-bottom:0;
+	padding-left:0.3em;
+	padding-right:0.3em;
+	padding-top:0;
+}
+.classify
+{
+	border-spacing:0;
+	width:76%;
+}
+.classify .details td
+{
+	background-color: #ccccff;
+	font-size: 80%;
+}
+
+.classify .class_title td
+{
+	background-color: #9999cc;
+	color:white;
+	font-weight:bold;
+}
+.classify td
+{
+	padding-right:2em;
+}
+.box
+{
+	border: 1px solid black;
+	margin-left: 1em;
+	padding: 0.2em;
+}
+.colored_box
+{
+	background-color: #ccccff;
+}
+.box h3
+{
+	margin-top:0em;
+}
+.indent
+{
+	margin-left: 1em;
+}
+.smallcaps
+{
+    font-variant: small-caps;
+}
+.file_list
+{
+    font-size: 85%;
+    margin-left: 0.5em;
+}
+.file_list .marked
+{
+    color: #cc3333;
+}
+.file_list .regular
+{
+    color: #333399;
+}
+.form
+{
+    font-famly: Arial, Helvetica, sans-serif;
+}
+.email
+{
+    color: black;
+}
+.disc
+{
+	list-style-type: disc;
+}
+.square
+{
+	list-style-type: square;
+}

@@ -1,0 +1,112 @@
+
+#use wml::tmpl::swpage area=about
+<page_title name="About">
+
+#include "about/SNB" area=descr
+
+#use wml::des::imgdot
+#use wml::des::typography
+#use wml::des::space
+#use wml::std::href
+
+<h2>Abstract</h2>
+
+<b>WML - Website META Language</b>
+
+<h2>Description</h2>
+
+<p>
+WML is a free HTML generation toolkit for Unix, internally consisting of 9
+independent languages. The main idea of WML is a sequential filtering scheme
+where each language provides one of 9 processing passes. So WML reads an input
+file, applies passes 1-9 (or optionally only the passes specified) and finally
+produces one or more output files. 
+</p>
+<p>
+For maximum power WML ships with an already written set of include files
+which define additional higher-level functionality. The same way you can write
+your own custom HTML tagsets for WML to extend its functionality for your
+particular needs.  So, whatever HTML tag you want (and WML not already
+provides), you just can program it yourself in Perl. WML is not a closed
+toolbox, its only the core upon which you can base your HTML generation
+environment.
+</p>
+
+<h2>Intent</h2>
+
+<p>
+It operates as a powerful offline HTML generation toolkit for webmasters.
+While not trivial and idiot proof it provides most of the features real
+hackers always wanted for HTML generation.
+</p>
+
+<h2>Highlight</h2>
+
+<p>
+The trick of WML are its 9 languages which are evaluated in sequence.  
+These are:
+</p>
+
+<ul>
+<li>Pass 1: Source Reading and Include File Expansion (<tt>ipp</tt>)</li>
+<li>Pass 2: HTML Macro Construct Expansion (<tt>mp4h</tt>)</li>
+<li>Pass 3: Perl 5 Programming Construct Expansion (<tt>eperl</tt>)</li>
+<li>Pass 4: M4 Macro Construct Expansion (<tt>gm4</tt>)</li>
+<li>Pass 5: Diversion Filter (<tt>divert</tt>)</li>
+<li>Pass 6: Character and String Substitution (<tt>asubst</tt>)</li>
+<li>Pass 7: HTML Fixup (<tt>htmlfix</tt>)</li>
+<li>Pass 8: Line Stripping and Output Fixup (<tt>htmlstrip</tt>)</li>
+<li>Pass 9: Output Splitting and Final Writing (<tt>slice</tt>)</li>
+</ul>
+
+<h2>This program is for you when...</h2>
+
+<p>
+...you are a <b>real</b> Webdesigner.<br />
+...you really create Web <b>areas</b> and not just single Web <b>pages</b>.<br />
+...your primary HTML creation platform is <b>Unix</b>.<br />
+...you love the idea of HTML <b>generation</b>.<br />
+...you <b>hate</b> the HTML code of WYSIWYG editors.<br />
+...you want to use <b>favorite programming features</b>.<br /> 
+</p>
+
+<h2>This program is NOT for you when...</h2>
+
+<p>
+...you are just a WWW user.<br />
+...you only created a few web pages in your lifetime.<br />
+...your primary HTML creation platform is Windows or Macintosh.<br />
+...you don't know about or hate generation tools.<br />
+...you don't have any problems with WYSIWYG editors.<br />
+...you hate programming languages.<br />
+</p>
+
+<h2>Primary Author</h2>
+
+<p>
+<b><i>Ralf S. Engelschall</i></b><br />
+<href name="<tt>rse@engelschall.com</tt>" url="rse@engelschall.com"><br />
+<href name="<tt>www.engelschall.com</tt>" url="http://www.engelschall.com/"><br />
+</p>
+
+<h2>Current Maintainer</h2>
+
+<p>
+<b><i>Denis Barbier</i></b><br />
+<href name="<tt>barbier@engelschall.com</tt>" url="barbier@engelschall.com"><br />
+</p>
+
+<h2>Copyright</h2>
+
+<p>
+Copyright &copy; 1996-2001 Ralf S. Engelschall<br />
+Copyright &copy; 1999-2001 Denis Barbier
+</p>
+
+<h2>About the Logo</h2>
+
+<p>
+The logo symbolically shows the toothed wheels of WML's passes through which
+the markup code runs. Another important thing is the big "META" because WML
+just is a wrapper around existing languages.
+</p>

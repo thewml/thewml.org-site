@@ -1,0 +1,18 @@
+#!wml -odistrib/patches.phtml
+
+#use wml::tmpl::swpage area=distrib subarea
+<page_title name="Distribution">
+
+#use wml::misc::distrib
+
+#include "distrib/SNB" area=patches
+
+<p>
+Here you can find inter-release patches, i.e. Bourne-Shell scripts containing
+`diffs' between releases. Use these files when you either need a particular
+release (because not all releases are archived as full tarballs) or when you
+want to upgrade to a newer release from a complete tarball.
+</p>
+
+<filelist *.sh.gz>
+

@@ -1,0 +1,25 @@
+#!wml -ochangelog.phtml
+
+#use wml::tmpl::swpage area=news subarea 
+<page_title name="Website META Language / News">
+
+#include "news/SNB" area=changelog
+
+<h2>ChangeLog</h2>
+
+<pre>
+<?
+binmode STDOUT, ":utf8";
+open(FP, "<../distrib/wml-SNAP/ChangeLog");
+binmode FP, ":iso8859-1";
+while (<FP>) {
+    s|&|&amp\;|g; # escape with useless backslash
+    s|<|&lt\;|g;
+    s|>|&gt\;|g;
+    s|(Changes between.+:)|<b>$1</b>|g;
+    print $_;
+}
+close(FP);
+!>
+</pre>
+

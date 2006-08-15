@@ -1,0 +1,14 @@
+
+#use wml::tmpl::swpage area=docs subarea
+<page_title name="Documentation: Core / mp4h (Pass 2)">
+
+#depends 'docs/backend/mp4h.html'
+
+<p>
+#include "docs/SNB" area=backend subarea
+
+{: [[s|^.*<body [^>]*>||s]]
+[[s|</body>.*$||s]]
+<include docs/backend/mp4h.html verbatim=true>
+:}
+

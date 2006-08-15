@@ -1,0 +1,71 @@
+
+#use wml::des::imgdot
+
+#include "VERSION"
+
+<define-tag filelist>
+<pre class="file_list">
+<b>   Bytes      Timestamp       Filename</b>
+<b>________ ____________________ ____________________________</b>
+<?
+$hi = "<get-var PACKAGE_ID>-<get-var VERSION>.tar.gz";
+sub ls {
+    my ($pat) = @_;
+    my ($R, $f, @S, @T);
+    @R = ();
+    foreach $f (glob($pat)) {
+		if ('%1' ne '') {
+			if (! %1 $f) {
+				next;
+			}
+		}
+        @S = stat($f);
+		$f = "$f/" if (-d $f);
+        @T = localtime($S[9]);
+        my @moy = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+<protect>
+        push(@R, sprintf("%8d %s %2d %02d:%02d:%02d %d %s\n", 
+</protect>
+             $S[7], $moy[$T[4]], $T[3], $T[2], $T[1], $T[0], 1900+$T[5], $f));
+    }
+    return @R;
+}
+@L = &ls("%0");
+foreach $l (@L) {
+    next if ($l =~ m|^\s*$|);
+    $l =~ s|(\s+)(\S+[^/])(\s*\n)$|$1."<"."a href=\"$2\">$2</a>".$3|e;
+    $l =~ s|(\s+)(\S+/)(\s*\n)$|$1."<"."a href=\"$2\"><b>$2</b></a>".$3|e;
+	#
+	$l =~ s|^(.*$hi.*)$|<b class="marked">$1&nbsp;&nbsp;&nbsp;&nbsp;[LATEST]</b>|;
+	$l =~ s|>($hi)<|><b class="marked">$1</b><|;
+    print $l;
+}
+!>
+</pre>
+</define-tag>
+
+<define-tag ftpareas>
+<div class="colored_box">
+<p>
+You can alternatively download the latest distribution
+files from the FTP area of engelschall.com's master servers:
+</p>
+<ul>
+<li>
+<b><href url="ftp://ftp.engelschall.com/sw/"></b> (<b>fast:</b> 8Mb/s, Switch, CH)
+</li>
+<li>
+<b><href url="ftp://ftp.de.engelschall.com/sw/"></b> (<b>slow:</b> 128Kb/s, UUNET, DE)
+</li>
+</ul>
+<p>
+Or from their mirrors:
+</p>
+<ul>
+<li><b><href url="ftp://ftp.hyperreal.org/software/engelschall/"></b></li>
+<li><b><href url="ftp://ftp.dppl.com/pub/engelschall/"></b></li>
+</ul>
+</div>
+</define-tag>
+

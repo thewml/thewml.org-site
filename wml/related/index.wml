@@ -1,0 +1,47 @@
+
+#use wml::tmpl::swpage area=related
+<page_title name="Related / HTML">
+
+#use wml::des::typography
+#include 'related/tags.inc'
+
+<p>
+#include "related/SNB" area=html
+
+<p>
+<zwue>HyperText Markup Language (HTML)</zwue>
+
+These are references to the HyperText Markup Language, the current main
+definition language for webpages. The current version is 4.0, which is not yet
+supported in major browsers. The previous version 3.2 has good support in
+Netscape Communicator 3 and 4 and in Microsoft Internet Explorer 4.
+
+<ul>
+    <item name="HTML W3C Home"
+	      url="http://www.w3.org/MarkUp/">
+	<p>
+    <item name="XHTML 1.0 : A Reformulation of HTML 4 in XML 1.0 (W3C REC 26-Jan-2000)" aio
+	      url="http://www.w3.org/TR/xhtml1/"> 
+	<p>
+    <item name="HTML 4.01 Specification (W3C REC 24-Dec-1999)" aio
+	      url="http://www.w3.org/TR/REC-html40/"> 
+	<p>
+    <item name="HTML 4.0 Specification (W3C REC 24-Apr-1998)"
+	      url="http://www.w3.org/TR/REC-html40/"> 
+	<p>
+    <item name="HTML 3.2 Specification (W3C REC 7-Jan-1997)"
+	      url="http://www.w3.org/TR/REC-html32.html">
+	<p>
+    <item name="HTML 2.0 Specification (W3C REC 22-Sep-1995)"
+	      url="http://www.w3.org/MarkUp/html-spec/html-spec_toc.html">
+	<p>
+    <item name="HTML and Style Sheets (W3C WD 24-Mar-97)"
+		  url="http://www.w3.org/TR/WD-style">
+	<p>
+    <item name="HTML and Internationalization"
+	      url="http://www.w3.org/International/O-HTML.html">
+	<p>
+    <item name="HTML Bare Bones Guide" aio
+	      url="http://werbach.com/barebones/barebone.html">
+</ul>
+

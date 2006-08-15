@@ -1,0 +1,11 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=jumpstart txt="JumpStart"   url="index.html" />
+<snb_button id=demo      txt="Demo Pages"  url="demo.html" />
+<snb_button id=myself    txt="WML Itself"  url="myself.html" />
+<snb_button id=author    txt="Author Refs" url="author.html" />
+<snb_button id=refs      txt="User Refs"   url="refs.html" />
+</snb>
+

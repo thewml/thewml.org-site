@@ -1,0 +1,13 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=html    txt="HTML"       url="index.html" />
+<snb_button id=css     txt="CSS"        url="css.html" />
+<snb_button id=dom     txt="DOM"        url="dom.html" />
+<snb_button id=js      txt="JavaScript" url="js.html" />
+<snb_button id=perl    txt="Perl"       url="perl.html" />
+<snb_button id=design  txt="Design"     url="design.html" />
+<snb_button id=tools   txt="Tools"      url="tools.html" />
+</snb>
+

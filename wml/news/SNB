@@ -1,0 +1,11 @@
+
+#use wml::tmpl::subnavbar
+
+<snb>
+<snb_button id=develop   txt="Development"  url="index.html" />
+<snb_button id=timeline  txt="Timeline"     url="timeline.html" />
+<snb_button id=changelog txt="ChangeLog"    url="changelog.phtml" />
+<snb_button id=news      txt="News"         url="news.phtml" />
+<snb_button id=list      txt="Mailing List" url="list.html" />
+</snb>
+
