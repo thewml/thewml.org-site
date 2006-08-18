@@ -8,7 +8,7 @@
 <h2>ChangeLog</h2>
 
 <pre>
-<?
+[-
 binmode STDOUT, ":utf8";
 open(FP, "<../distrib/wml-SNAP/ChangeLog");
 binmode FP, ":iso8859-1";
@@ -20,6 +20,6 @@ while (<FP>) {
     print $_;
 }
 close(FP);
-!>
+-]
 </pre>
 
