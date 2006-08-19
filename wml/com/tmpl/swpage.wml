@@ -86,9 +86,7 @@ $leading_path_string =
 if ("$(PHTML)")
 {
 	print <<'EOF';
-<? print "<" . "?" . "xml version=\"1.0\" encoding=\"utf-8\"" .
-	"?" . ">" . "\n";
-!>
+[+ eval { $escmode = 0; '<?xml version="1.0" encoding="utf-8"?>' } +]
 EOF
 }
 else

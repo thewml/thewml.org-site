@@ -7,7 +7,10 @@
 <pre class="file_list">
 <b>   Bytes      Timestamp       Filename</b>
 <b>________ ____________________ ____________________________</b>
-<?
+[+
+eval {
+$escmode = 0;
+my $out = "";
 $hi = "<get-var PACKAGE_ID>-<get-var VERSION>.tar.gz";
 sub ls {
     my ($pat) = @_;
@@ -39,9 +42,11 @@ foreach $l (@L) {
 	#
 	$l =~ s|^(.*$hi.*)$|<b class="marked">$1&nbsp;&nbsp;&nbsp;&nbsp;[LATEST]</b>|;
 	$l =~ s|>($hi)<|><b class="marked">$1</b><|;
-    print $l;
+    $out .= $l;
 }
-!>
+$out;
+}
++]
 </pre>
 </define-tag>
 

@@ -8,18 +8,22 @@
 <h2>ChangeLog</h2>
 
 <pre>
-[-
+[+
+eval {
 binmode STDOUT, ":utf8";
 open(FP, "<../distrib/wml-SNAP/ChangeLog");
 binmode FP, ":iso8859-1";
+my $out = "";
 while (<FP>) {
     s|&|&amp\;|g; # escape with useless backslash
     s|<|&lt\;|g;
     s|>|&gt\;|g;
     s|(Changes between.+:)|<b>$1</b>|g;
-    print $_;
+    $out .= $_;
 }
 close(FP);
--]
+$out
+}
++]
 </pre>
 
