@@ -8,9 +8,11 @@
 
 <h2>News</h2>
 
+[! use File::Basename; !]
 <pre>
 [+
 eval {
+chdir(dirname($ENV{'PATH_TRANSLATED'}));
 my $out = "";
 open(FP, "<../distrib/wml-SNAP/NEWS");
 while (<FP>) {
