@@ -29,7 +29,8 @@ files.
 :##}
 
 {#NEWSFLASH#:
-Support for Perl 5.8.0 added in WML 2.0.9
+Cygwin building and other bugs fixed in 2.0.11 
+# Support for Perl 5.8.0 added in WML 2.0.9
 #It's Summer day, WML 2.0.7 is out!
 #It finally happens, WML 2.0 is out!
 #Have a look at a list of <a href="example/refs.phtml"><b class="link">WML generated sites</b></a>
