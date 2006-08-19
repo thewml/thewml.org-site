@@ -12,6 +12,17 @@
 
 #include "example/SNB" area=refs
 
+<h2>Note!</h2>
+
+<p>
+This page <a href="http://cms.wikia.com/wiki/Impl/Website_Meta_Language/User_Refs"><b>has 
+moved to the wiki</b></a>. The list below may be synchronised from it from
+time to time but that may not happen regularly. 
+</p>
+
+<p>
+Feel free to add your own user reference there.
+</p>
 <h2>User Reference Page</h2>
 
 <p>
@@ -21,6 +32,7 @@ something yourself via WML too or at least know someone who has, please add an
 entry to this list: 
 </p>
 
+<define-tag user_refs_form>
 <form method="post" action="http://www.iglu.org.il/cgi-bin/cgiemail/cgiemail-templates/wml-refs">
 <div class="box news">
 <h3>Submit New Entry</h3>
@@ -65,6 +77,7 @@ entry to this list:
 </table>
 </div>
 </form>
+</define-tag>
 
 <define-tag refs-list>\
 <protect pass=2>\
