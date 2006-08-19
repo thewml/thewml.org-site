@@ -7,10 +7,12 @@
 <pre class="file_list">
 <b>   Bytes      Timestamp       Filename</b>
 <b>________ ____________________ ____________________________</b>
+[! use File::Basename; !]
 [+
 eval {
 $escmode = 0;
 my $out = "";
+chdir(dirname($ENV{'PATH_TRANSLATED'}));
 $hi = "<get-var PACKAGE_ID>-<get-var VERSION>.tar.gz";
 sub ls {
     my ($pat) = @_;
