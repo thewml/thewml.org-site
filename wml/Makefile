@@ -32,7 +32,7 @@ COMMON_DEPS = com/tmpl/swpage.wml MyNavData.pm com/tmpl/subnavbar.wml com/misc/d
 
 dummy: $(FINAL_HTMLS) $(FINAL_PHTMLS) example/refs.html
 
-COMMON_FLAGS = -DROOT~. -DSERVER=thewml --passoption=2,-X3074
+COMMON_FLAGS = -DROOT~. -DSERVER=thewml --passoption=2,-X3074 -Icom
 
 $(FINAL_HTMLS) :: %.html: %.wml $(COMMON_DEPS)
 	wml $(COMMON_FLAGS) -DFILENAME=$@ -DPHTML=0 -o $@ $<
