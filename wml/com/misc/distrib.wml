@@ -30,7 +30,7 @@ sub ls {
         my @moy = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
 <protect>
-        push(@R, sprintf("%8d %s %2d %02d:%02d:%02d %d %s\n", 
+        push(@R, sprintf("%8d %s %2d %02d:%02d:%02d %d %s\n",
 </protect>
              $S[7], $moy[$T[4]], $T[3], $T[2], $T[1], $T[0], 1900+$T[5], $f));
     }

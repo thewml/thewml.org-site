@@ -1,12 +1,12 @@
 #!/sw/bin/perl
 ##
 ##  update.pl -- update .wml files
-##  Copyright (c) 1997 Ralf S. Engelschall, All Rights Reserved. 
+##  Copyright (c) 1997 Ralf S. Engelschall, All Rights Reserved.
 ##
 
 #$modroot = "/sw/pkg/wml/src/wml_include";
 $modroot = "../../distrib/latest/wml_include";
-foreach $file (glob("$modroot/*.src"), 
+foreach $file (glob("$modroot/*.src"),
                glob("$modroot/[a-z]*/*.src"),
                glob("$modroot/sys/*.src.in")) {
     $to = $file;

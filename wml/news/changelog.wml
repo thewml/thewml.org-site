@@ -1,6 +1,6 @@
 #!wml -ochangelog.phtml
 
-#use wml::tmpl::swpage area=news subarea 
+#use wml::tmpl::swpage area=news subarea
 <page_title name="Website META Language / News">
 
 #include "news/SNB" area=changelog

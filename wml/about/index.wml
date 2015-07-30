@@ -20,7 +20,7 @@ WML is a free HTML generation toolkit for Unix, internally consisting of 9
 independent languages. The main idea of WML is a sequential filtering scheme
 where each language provides one of 9 processing passes. So WML reads an input
 file, applies passes 1-9 (or optionally only the passes specified) and finally
-produces one or more output files. 
+produces one or more output files.
 </p>
 <p>
 For maximum power WML ships with an already written set of include files
@@ -43,7 +43,7 @@ hackers always wanted for HTML generation.
 <h2>Highlight</h2>
 
 <p>
-The trick of WML are its 9 languages which are evaluated in sequence.  
+The trick of WML are its 9 languages which are evaluated in sequence.
 These are:
 </p>
 
@@ -67,7 +67,7 @@ These are:
 ...your primary HTML creation platform is <b>Unix</b>.<br />
 ...you love the idea of HTML <b>generation</b>.<br />
 ...you <b>hate</b> the HTML code of WYSIWYG editors.<br />
-...you want to use <b>favorite programming features</b>.<br /> 
+...you want to use <b>favorite programming features</b>.<br />
 </p>
 
 <h2>This program is NOT for you when...</h2>

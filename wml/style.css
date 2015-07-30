@@ -24,7 +24,7 @@
 .navbarmain li
 {
     display: block;
-    font-size: 130%;    
+    font-size: 130%;
     font-family: arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -77,7 +77,7 @@ the sub-entry. */
 {
    display:block;
    font-size:70%;
-   border: none;   
+   border: none;
    margin-left: 0;
    padding-left 0;
 }

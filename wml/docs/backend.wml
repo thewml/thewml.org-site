@@ -24,7 +24,7 @@ used in the given sequential pass order.
      Pass3: Embedded Perl 5 Language</li>
 <li><href name="<b>wml_p4_gm4</b>" url="backend/wml_p4_gm4.html"><br />
      Pass4: GNU M4</li>
-<li><href name="<b>wml_p5_divert</b>" url="backend/wml_p5_divert.html"><br /> 
+<li><href name="<b>wml_p5_divert</b>" url="backend/wml_p5_divert.html"><br />
      Pass5: Divert</li>
 <li><href name="<b>wml_p6_asubst</b>" url="backend/wml_p6_asubst.html"><br />
      Pass6: Area Subst </li>

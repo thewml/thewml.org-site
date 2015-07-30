@@ -21,7 +21,7 @@ when installing.
 <p>
 Check the package repository of your distribution for the relevant pacakges.
 </p>
-;;;<xtable border=2 cellspacing=0 cellpadding=5> 
+;;;<xtable border=2 cellspacing=0 cellpadding=5>
 ;;;(*,*) valign=top
 ;;;((1,1))
 ;;;    WML

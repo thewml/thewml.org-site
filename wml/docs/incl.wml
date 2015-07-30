@@ -13,7 +13,7 @@
 These include files provide the additional higher level features.  There
 functionality is based upon both the core languages and the auxiliary
 programs. (They can be explicitly loaded when needed via <tt>#use</tt> or
-<tt>#include</tt> directives). 
+<tt>#include</tt> directives).
 </p>
 
 <:

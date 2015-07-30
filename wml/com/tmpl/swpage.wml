@@ -1,6 +1,6 @@
 ##
 ##  swpage.wml -- Standard Page Template for www.engelschall.com/sw
-##  Copyright (c) 1997 Ralf S. Engelschall, All Rights Reserved. 
+##  Copyright (c) 1997 Ralf S. Engelschall, All Rights Reserved.
 ##
 
 
@@ -74,12 +74,12 @@ $leading_path_string =
 
 #   generate the standard HTML page skeleton
 [PAGE_HEAD:\
-;;; <page 
-;;;       vlink="#6060a0" 
-;;;        link="#6060c0" 
+;;; <page
+;;;       vlink="#6060a0"
+;;;        link="#6060c0"
 ;;;       alink="#6060f0"
-;;;     bgcolor="#ffffff" 
-;;;  background="$(COM)/bg/bg.gif" 
+;;;     bgcolor="#ffffff"
+;;;  background="$(COM)/bg/bg.gif"
 ;;;       title="$(PACKAGE_NAME) ($(PACKAGE_SCUT)), {#PAGE_TITLE#}"
 ;;; >
 <:{
@@ -106,13 +106,13 @@ else
 </head>
 <body>
 <div class="navbar" id="navbar">
-    <a href="http://swpat.ffii.org/" 
-       title="Stop Software Patents!"><img 
+    <a href="http://swpat.ffii.org/"
+       title="Stop Software Patents!"><img
        src="$(COM)/navbar/no-e-patents.png" alt="Stop Software Patents!"
     /></a><br />
 
     <img src="$(COM)/navbar/button-n-sw.gif" alt="Free Software" /><br />
-    <img src="$(COM)/navbar/button-i-$(PACKAGE_ID).gif" alt="WML" /><br /> 
+    <img src="$(COM)/navbar/button-i-$(PACKAGE_ID).gif" alt="WML" /><br />
 <:{ print join("\n", @$nav_html); }:>
 </div>
 
@@ -165,7 +165,7 @@ Copyright &copy; 1996-2001
 <a href="http://www.engelschall.com/">Ralf S. Engelschall</a>,
 <a href="mailto:rse@engelschall.com"><tt>rse@engelschall.com</tt></a><br />
 Maintained by <a href="mailto:barbier@engelschall.com">Denis Barbier, <tt>barbier@engelschall.com</tt></a><br />
-#Accessed <!--#echo var="URL_COUNT"--> times 
+#Accessed <!--#echo var="URL_COUNT"--> times
 #   since <!--#echo var="URL_COUNT_RESET"--><br>
 #URL: <!--#echo var="SCRIPT_URI"--><br>
 </p>

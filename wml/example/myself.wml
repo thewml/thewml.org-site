@@ -28,7 +28,7 @@ other part, but their origin is Adobe Photoshop and not WML ;_).  A last hint:
 The best way to understand this webarea is to first look at the red-marked
 files, especially the <a
 href="../../com-2.0/tmpl/swpage.wml"><b>com-2.0/tmpl/swpage.wml</b></a> file which is
-the main template for all pages. 
+the main template for all pages.
 </p>
 
 <div class="box file_list">

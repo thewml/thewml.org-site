@@ -5,7 +5,7 @@ use warnings;
 
 my $hosts =
 {
-    'thewml' => 
+    'thewml' =>
     {
         'base_url' => "http://thewml.org/",
     },
@@ -25,18 +25,18 @@ my $tree_contents =
         {
             'text' => "About",
             'url' => "about/",
-            'subs' => 
+            'subs' =>
             [
                 {
                     'text' => "Classify",
                     'url' => "about/class.html",
                 },
-            ],               
+            ],
         },
         {
             'text' => "News",
             'url' => "news/",
-            'subs' => 
+            'subs' =>
             [
                 {
                     'text' => "Timeline",
@@ -195,7 +195,7 @@ my $tree_contents =
         {
             'text' => "Related",
             'url' => "related/",
-            'subs' => 
+            'subs' =>
             [
                 {
                     'text' => "CSS",
@@ -228,7 +228,7 @@ my $tree_contents =
 
 sub get_params
 {
-    return 
+    return
         (
             'hosts' => $hosts,
             'tree_contents' => $tree_contents,

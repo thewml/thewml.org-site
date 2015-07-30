@@ -15,9 +15,9 @@
 <h2>Note!</h2>
 
 <p>
-This page <a href="http://cms.wikia.com/wiki/Impl/Website_Meta_Language/User_Refs"><b>has 
+This page <a href="http://cms.wikia.com/wiki/Impl/Website_Meta_Language/User_Refs"><b>has
 moved to the wiki</b></a>. The list below may be synchronised from it from
-time to time but that may not happen regularly. 
+time to time but that may not happen regularly.
 </p>
 
 <p>
@@ -29,7 +29,7 @@ Feel free to add your own user reference there.
 Here you can find the list of known Webpages, Webareas and Websites other
 people have created by the help of Website Meta Language.  If you have created
 something yourself via WML too or at least know someone who has, please add an
-entry to this list: 
+entry to this list:
 </p>
 
 <define-tag user_refs_form>
